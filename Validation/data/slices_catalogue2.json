@@ -1,184 +1,184 @@
 {
   "plates": {
     "1": {
-      "model_time": "4h 20m 50s",
-      "total_time": "4h 27m 5s",
+      "model_time": "4h 56m 52s",
+      "total_time": "5h 3m 8s",
       "layers": "443",
       "density": "1.26,1.25",
       "max_z": "99.99",
-      "used_mm": 75570.29,
+      "used_mm": 75570.23,
       "used_cm3": 181.77,
       "used_g": 229.03
     },
     "2": {
-      "model_time": "1h 45m 53s",
-      "total_time": "1h 52m 7s",
+      "model_time": "2h 11m 31s",
+      "total_time": "2h 17m 47s",
       "layers": "340",
       "density": "1.26,1.25",
       "max_z": "68.00",
-      "used_mm": 13434.49,
-      "used_cm3": 32.31,
-      "used_g": 40.72
+      "used_mm": 13495.33,
+      "used_cm3": 32.46,
+      "used_g": 40.9
     },
     "3": {
-      "model_time": "8m 41s",
-      "total_time": "14m 56s",
+      "model_time": "11m 23s",
+      "total_time": "17m 38s",
       "layers": "54",
       "density": "1.26,1.25",
       "max_z": "10.80",
-      "used_mm": 1056.19,
-      "used_cm3": 2.54,
-      "used_g": 3.2
+      "used_mm": 1047.54,
+      "used_cm3": 2.52,
+      "used_g": 3.17
     },
     "4": {
-      "model_time": "30m 45s",
-      "total_time": "37m 4s",
+      "model_time": "33m 25s",
+      "total_time": "39m 46s",
       "layers": "34",
       "density": "1.26,1.25",
       "max_z": "6.80",
-      "used_mm": 4012.59,
-      "used_cm3": 9.65,
-      "used_g": 12.06
+      "used_mm": 3962.36,
+      "used_cm3": 9.53,
+      "used_g": 11.91
     },
     "5": {
-      "model_time": "49m 3s",
-      "total_time": "55m 18s",
+      "model_time": "59m 28s",
+      "total_time": "1h 5m 43s",
       "layers": "108",
       "density": "1.26,1.25",
       "max_z": "26.12",
-      "used_mm": 6652.33,
-      "used_cm3": 16.0,
-      "used_g": 20.16
+      "used_mm": 6644.81,
+      "used_cm3": 15.98,
+      "used_g": 20.14
     },
     "6": {
-      "model_time": "1h 9m 35s",
-      "total_time": "1h 15m 50s",
+      "model_time": "1h 22m 25s",
+      "total_time": "1h 28m 41s",
       "layers": "127",
       "density": "1.26,1.25",
       "max_z": "24.80",
-      "used_mm": 10636.5,
-      "used_cm3": 25.58,
-      "used_g": 32.24
+      "used_mm": 10629.13,
+      "used_cm3": 25.57,
+      "used_g": 32.21
     },
     "7": {
-      "model_time": "19m 47s",
-      "total_time": "26m 2s",
+      "model_time": "22m 39s",
+      "total_time": "28m 54s",
       "layers": "25",
       "density": "1.26,1.25",
       "max_z": "6.34",
-      "used_mm": 3113.31,
-      "used_cm3": 7.49,
-      "used_g": 9.44
+      "used_mm": 3107.75,
+      "used_cm3": 7.48,
+      "used_g": 9.42
     },
     "8": {
-      "model_time": "17m 27s",
-      "total_time": "23m 42s",
+      "model_time": "22m 0s",
+      "total_time": "28m 16s",
       "layers": "80",
       "density": "1.26,1.25",
       "max_z": "16.00",
-      "used_mm": 2944.11,
-      "used_cm3": 7.08,
-      "used_g": 8.92
+      "used_mm": 2936.65,
+      "used_cm3": 7.06,
+      "used_g": 8.9
     },
     "9": {
-      "model_time": "5h 5m 37s",
-      "total_time": "5h 11m 51s",
+      "model_time": "5h 49m 49s",
+      "total_time": "5h 56m 4s",
       "layers": "500",
       "density": "1.26,1.25",
       "max_z": "100.00",
-      "used_mm": 66598.29,
-      "used_cm3": 160.19,
-      "used_g": 201.84
+      "used_mm": 66601.53,
+      "used_cm3": 160.2,
+      "used_g": 201.85
     },
     "10": {
-      "model_time": "2h 9m 31s",
-      "total_time": "2h 15m 46s",
+      "model_time": "2h 43m 21s",
+      "total_time": "2h 49m 37s",
       "layers": "425",
       "density": "1.26,1.25",
       "max_z": "85.00",
-      "used_mm": 22782.15,
-      "used_cm3": 54.8,
-      "used_g": 69.04
+      "used_mm": 22849.88,
+      "used_cm3": 54.96,
+      "used_g": 69.25
     },
     "11": {
-      "model_time": "1h 22m 15s",
-      "total_time": "1h 28m 35s",
+      "model_time": "1h 27m 35s",
+      "total_time": "1h 33m 56s",
       "layers": "75",
       "density": "1.26,1.25",
       "max_z": "15.00",
-      "used_mm": 13002.53,
-      "used_cm3": 31.27,
-      "used_g": 39.09
+      "used_mm": 12861.87,
+      "used_cm3": 30.94,
+      "used_g": 38.67
     },
     "12": {
-      "model_time": "1h 32m 17s",
-      "total_time": "1h 38m 36s",
+      "model_time": "1h 37m 41s",
+      "total_time": "1h 44m 1s",
       "layers": "75",
       "density": "1.26,1.25",
       "max_z": "15.00",
-      "used_mm": 14788.15,
-      "used_cm3": 35.57,
-      "used_g": 44.46
+      "used_mm": 14626.48,
+      "used_cm3": 35.18,
+      "used_g": 43.98
     },
     "13": {
-      "model_time": "1h 40m 10s",
-      "total_time": "1h 46m 29s",
+      "model_time": "1h 45m 34s",
+      "total_time": "1h 51m 54s",
       "layers": "75",
       "density": "1.26,1.25",
       "max_z": "15.00",
-      "used_mm": 16306.9,
-      "used_cm3": 39.22,
-      "used_g": 49.03
+      "used_mm": 16129.36,
+      "used_cm3": 38.8,
+      "used_g": 48.49
     },
     "14": {
-      "model_time": "5h 25m 43s",
-      "total_time": "5h 32m 3s",
+      "model_time": "5h 43m 26s",
+      "total_time": "5h 49m 47s",
       "layers": "200",
       "density": "1.26,1.25",
       "max_z": "40.00",
-      "used_mm": 47941.83,
-      "used_cm3": 115.31,
-      "used_g": 144.14
+      "used_mm": 47435.82,
+      "used_cm3": 114.1,
+      "used_g": 142.62
     },
     "15": {
-      "model_time": "2h 56m 23s",
-      "total_time": "3h 2m 42s",
+      "model_time": "3h 10m 51s",
+      "total_time": "3h 17m 12s",
       "layers": "146",
       "density": "1.26,1.25",
       "max_z": "29.40",
-      "used_mm": 21774.52,
-      "used_cm3": 52.37,
-      "used_g": 65.47
+      "used_mm": 21540.03,
+      "used_cm3": 51.81,
+      "used_g": 64.76
     },
     "16": {
-      "model_time": "1h 54m 43s",
-      "total_time": "2h 0m 58s",
+      "model_time": "2h 20m 44s",
+      "total_time": "2h 27m 0s",
       "layers": "377",
       "density": "1.26,1.25",
       "max_z": "75.40",
-      "used_mm": 25061.46,
-      "used_cm3": 60.28,
-      "used_g": 75.95
+      "used_mm": 25057.09,
+      "used_cm3": 60.27,
+      "used_g": 75.94
     },
     "17": {
-      "model_time": "3h 48m 51s",
-      "total_time": "3h 55m 6s",
+      "model_time": "4h 33m 24s",
+      "total_time": "4h 39m 39s",
       "layers": "551",
       "density": "1.26,1.25",
       "max_z": "110.20",
-      "used_mm": 46593.35,
-      "used_cm3": 112.07,
-      "used_g": 141.21
+      "used_mm": 46586.41,
+      "used_cm3": 112.05,
+      "used_g": 141.19
     },
     "18": {
-      "model_time": "32m 10s",
-      "total_time": "38m 24s",
+      "model_time": "40m 54s",
+      "total_time": "47m 9s",
       "layers": "125",
       "density": "1.26,1.25",
       "max_z": "25.00",
-      "used_mm": 6778.46,
-      "used_cm3": 16.3,
-      "used_g": 20.54
+      "used_mm": 6771.58,
+      "used_cm3": 16.29,
+      "used_g": 20.52
     }
   },
   "per_plate": {
@@ -220,12 +220,7 @@
     },
     "10": {
       "ok": true,
-      "warnings": [
-        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
-        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
-        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
-        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0"
-      ]
+      "warnings": []
     },
     "11": {
       "ok": true,
@@ -241,21 +236,11 @@
     },
     "14": {
       "ok": true,
-      "warnings": [
-        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
-        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
-        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
-        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0"
-      ]
+      "warnings": []
     },
     "15": {
       "ok": true,
-      "warnings": [
-        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
-        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
-        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
-        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0"
-      ]
+      "warnings": []
     },
     "16": {
       "ok": true,

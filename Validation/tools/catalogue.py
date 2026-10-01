@@ -112,7 +112,7 @@ def main(out_path, n=1, previews=None):
         print(f"  plate {plate:2}  {dev['title'][:46]:48} {len(pls)} object(s)")
 
     shared = SHARED if n == 1 else shared_for(cfgs)
-    cfg, _ = settings.build({}, "0.20mm Standard @BBL X1C", None, fil, overrides=shared)
+    cfg, _ = settings.build({}, "0.20mm Standard @BBL A1", None, fil, overrides=shared)
     cols = grid_columns(len(rows))
     for plate, pls in by_plate.items():
         col, row = (plate - 1) % cols, (plate - 1) // cols

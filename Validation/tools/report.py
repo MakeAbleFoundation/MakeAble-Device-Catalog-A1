@@ -280,7 +280,7 @@ def _write_device_md(out, r, dev, s, rs, per, ref_per):
     L.append(f"- on the plate: {r['count']} {unit_word(r)} ({r['objects']} objects)")
     if r.get("capped_from"):
         L.append(f"- print-time cap: {r['capped_from']} {r['unit']} fit on the plate; trimmed "
-                 f"to {r['count']} to stay under {devices.MAX_HOURS:.0f} h")
+                 f"to {r['count']} to stay under {devices.MAX_HOURS:.0f} h on the A1")
     if dev.get("hardware"):
         L.append(f"- also needed: {dev['hardware']}")
     L.append("")
@@ -303,14 +303,14 @@ def _write_device_md(out, r, dev, s, rs, per, ref_per):
     info = r["info"]
     if info.get("from_reference"):
         L.append("### Taken from the designer's file")
-        L.append("| setting | P1S preset | designer |")
+        L.append("| setting | A1 preset | designer |")
         L.append("|---|---|---|")
         for k, (a, b) in sorted(info["from_reference"].items()):
             L.append(f"| `{k}` | {a} | **{b}** |")
         L.append("")
     if info.get("kept_p1s"):
-        L.append("### Left at the P1S value (designer never changed it on their printer)")
-        L.append("| setting | their file | P1S |")
+        L.append("### Left at the A1 value (designer never changed it on their printer)")
+        L.append("| setting | their file | A1 |")
         L.append("|---|---|---|")
         for k, (a, b) in sorted(info["kept_p1s"].items()):
             if str(a) != str(b):
@@ -343,15 +343,13 @@ def _write_device_md(out, r, dev, s, rs, per, ref_per):
     if PAGE_WEIGHT.get(r["slug"]):
         L.append(f"- the model page quotes {PAGE_WEIGHT[r['slug']]} g per copy")
     L.append(f"- geometry check: {'clean' if not r['issues'] else 'ISSUES'}"
-             + (" (on the plate, clear of the excluded corner, no parts touching)"
-                if r.get("supplied") else ""))
+             + (" (on the plate, no parts touching)" if r.get("supplied") else ""))
     for i in r["issues"]:
         L.append(f"  - {i}")
     if r.get("spacing"):
         sp = r["spacing"]
         L.append(f"- spacing, kept as supplied: parts {fmt_mm(sp['gap'], 'more than 10 mm')} "
-                 f"apart (packed plates: 5 mm), {fmt_mm(sp['edge'])} from the plate edge (5 mm), "
-                 f"{fmt_mm(sp['corner'])} from the excluded corner (8 mm)")
+                 f"apart (packed plates: 5 mm), {fmt_mm(sp['edge'])} from the plate edge (5 mm)")
     if s.get("clamped"):
         L.append(f"- clamped for Orca only (the delivered file keeps Bambu's values): "
                  f"{', '.join(s['clamped'])}")
@@ -359,6 +357,23 @@ def _write_device_md(out, r, dev, s, rs, per, ref_per):
     if warnings:
         L.append(f"- slicer warnings: {'; '.join(warnings[:4])}")
     L.append("")
+    a1 = r.get("a1") or {}
+    if a1:
+        L.append("## Converted from the P1S file")
+        p1s = a1.get("p1s") or {}
+        if p1s.get("total_time"):
+            L.append(f"- on the P1S: {a1.get('p1s_count', r['count'])} {unit_word(r, a1.get('p1s_count'))}, "
+                     f"{p1s['total_time']}, {p1s.get('used_g', 0):.1f} g")
+        for c_from, c_to, t in a1.get("trims") or []:
+            L.append(f"- {c_from} {unit_word(r, c_from)} ran {t} on the A1, over the "
+                     f"{devices.MAX_HOURS:.0f} h cap: trimmed to {c_to}, keeping the ones nearest "
+                     "the middle of the plate; nothing that stayed was moved")
+        for b in a1.get("brims") or []:
+            L.append(f"- {b}: outer brim added (the A1 moves the bed under the part, and this "
+                     "one is tall for its footprint)")
+        for k, (a, b) in sorted((a1.get("process") or {}).items()):
+            L.append(f"- `{k}`: {a} (X1C/P1S preset) -> **{b}** (A1 preset)")
+        L.append("")
     if r["advisories"]:
         L.append("## Advisories (nothing changed)")
         for a in r["advisories"]:

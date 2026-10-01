@@ -3,7 +3,7 @@
     "slug": "bag-carrier-medium",
     "id": 1,
     "title": "Bag Carrier (Medium)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/01 Bag Carrier (Medium) - PLA x4.3mf",
+    "path": "../../Full Plates/01 Bag Carrier (Medium) - PLA x4.3mf",
     "layout": "single",
     "file": "01 Bag Carrier (Medium) - PLA x4.3mf",
     "material": "PLA",
@@ -24,7 +24,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -59,7 +59,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -82,7 +82,7 @@
       "Bag Carrier Medium.stl"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -93,13 +93,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 4,
+      "p1s": {
+        "model_time": "2h 54m 22s",
+        "total_time": "3h 0m 37s",
+        "layers": "75",
+        "density": "1.26",
+        "max_z": "15.00",
+        "used_mm": 41369.28,
+        "used_cm3": 99.5,
+        "used_g": 125.38
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "bag-carrier-small",
     "id": 2,
     "title": "Bag Carrier (Small)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/02 Bag Carrier (Small) - PLA x4.3mf",
+    "path": "../../Full Plates/02 Bag Carrier (Small) - PLA x4.3mf",
     "layout": "single",
     "file": "02 Bag Carrier (Small) - PLA x4.3mf",
     "material": "PLA",
@@ -120,7 +153,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -155,7 +188,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -178,7 +211,7 @@
       "Bag Carrier Small.stl"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -189,13 +222,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 4,
+      "p1s": {
+        "model_time": "2h 35m 35s",
+        "total_time": "2h 41m 50s",
+        "layers": "75",
+        "density": "1.26",
+        "max_z": "15.00",
+        "used_mm": 37103.94,
+        "used_cm3": 89.25,
+        "used_g": 112.45
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "bag-carrier-large",
     "id": 3,
     "title": "Bag Carrier (Large)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/03 Bag Carrier (Large) - PLA x2.3mf",
+    "path": "../../Full Plates/03 Bag Carrier (Large) - PLA x2.3mf",
     "layout": "single (corner kept clear)",
     "file": "03 Bag Carrier (Large) - PLA x2.3mf",
     "material": "PLA",
@@ -216,7 +282,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -251,7 +317,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -274,7 +340,7 @@
       "Bag Carrier Large.stl"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -285,13 +351,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 2,
+      "p1s": {
+        "model_time": "1h 43m 9s",
+        "total_time": "1h 49m 24s",
+        "layers": "75",
+        "density": "1.26",
+        "max_z": "15.00",
+        "used_mm": 26044.07,
+        "used_cm3": 62.64,
+        "used_g": 78.93
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "bottle-cap-opener",
     "id": 4,
     "title": "Bottle Cap Opener",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/04 Bottle Cap Opener - PETG x8.3mf",
+    "path": "../../Full Plates/04 Bottle Cap Opener - PETG x8.3mf",
     "layout": "pairs at 5deg",
     "file": "04 Bottle Cap Opener - PETG x8.3mf",
     "material": "PETG",
@@ -312,7 +411,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL A1M",
       "base_note": null,
       "from_reference": {
@@ -372,7 +471,7 @@
       "kept_p1s": {
         "default_acceleration": [
           "6000",
-          "10000"
+          "6000"
         ],
         "flush_multiplier": [
           "1",
@@ -392,7 +491,7 @@
         ],
         "smooth_coefficient": [
           "80",
-          "150"
+          "80"
         ],
         "top_area_threshold": [
           "100%",
@@ -400,7 +499,7 @@
         ],
         "travel_speed": [
           "700",
-          "500"
+          "700"
         ]
       },
       "ambiguous": {
@@ -428,7 +527,7 @@
       "overrides": {}
     },
     "filaments": [
-      "PETG P1S Tuned"
+      "PETG A1 Tuned"
     ],
     "advisories": [],
     "metrics": {
@@ -451,7 +550,7 @@
       "Bottle Cap Opener"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.15",
       "walls": "5",
@@ -462,13 +561,46 @@
       "brim": "auto_brim",
       "top": "3",
       "bottom": "5"
+    },
+    "a1": {
+      "p1s_count": 8,
+      "p1s": {
+        "model_time": "6h 55m 29s",
+        "total_time": "7h 1m 48s",
+        "layers": "50",
+        "density": "1.25",
+        "max_z": "9.95",
+        "used_mm": 55200.32,
+        "used_cm3": 132.77,
+        "used_g": 165.97
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "bottle-opener-wide-handle",
     "id": 5,
     "title": "Bottle Opener (three sizes, wide handle)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/05 Bottle Opener (three sizes, wide handle) - PETG x4.3mf",
+    "path": "../../Full Plates/05 Bottle Opener (three sizes, wide handle) - PETG x4.3mf",
     "layout": "single",
     "file": "05 Bottle Opener (three sizes, wide handle) - PETG x4.3mf",
     "material": "PETG",
@@ -489,7 +621,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Strength @BBL X1C",
+      "target_preset": "0.20mm Strength @BBL A1",
       "base_preset": "0.20mm Strength @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -565,7 +697,7 @@
       "overrides": {}
     },
     "filaments": [
-      "PETG P1S Tuned"
+      "PETG A1 Tuned"
     ],
     "advisories": [],
     "metrics": {
@@ -588,7 +720,7 @@
       "bottle opener remix.stl"
     ],
     "profile": {
-      "preset": "0.20mm Strength @BBL X1C",
+      "preset": "0.20mm Strength @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "5",
@@ -599,13 +731,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 4,
+      "p1s": {
+        "model_time": "6h 39m 39s",
+        "total_time": "6h 46m 6s",
+        "layers": "100",
+        "density": "1.25",
+        "max_z": "20.00",
+        "used_mm": 46930.54,
+        "used_cm3": 112.88,
+        "used_g": 141.1
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "can-opener",
     "id": 6,
     "title": "Assistive Can Tab Opener",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/06 Assistive Can Tab Opener - PLA x30.3mf",
+    "path": "../../Full Plates/06 Assistive Can Tab Opener - PLA x30.3mf",
     "layout": "single",
     "file": "06 Assistive Can Tab Opener - PLA x30.3mf",
     "material": "PLA",
@@ -626,7 +791,7 @@
     },
     "gap": 8.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -678,7 +843,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -701,7 +866,7 @@
       "Base_Can_Opener.stl"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -709,16 +874,51 @@
       "pattern": "grid",
       "support": "1",
       "support_type": "tree(auto)",
-      "brim": "auto_brim",
+      "brim": "outer_only",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 30,
+      "p1s": {
+        "model_time": "11h 2m 33s",
+        "total_time": "11h 8m 48s",
+        "layers": "120",
+        "density": "1.26",
+        "max_z": "24.00",
+        "used_mm": 118379.34,
+        "used_cm3": 284.74,
+        "used_g": 358.77
+      },
+      "trims": [],
+      "brims": [
+        "Base_Can_Opener.stl"
+      ],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "jar-opener",
     "id": 7,
     "title": "OPENSESAME3000 Jar Tool",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/07 OPENSESAME3000 Jar Tool - PETG x2.3mf",
+    "path": "../../Full Plates/07 OPENSESAME3000 Jar Tool - PETG x2.3mf",
     "layout": "single",
     "file": "07 OPENSESAME3000 Jar Tool - PETG x2.3mf",
     "material": "PETG",
@@ -739,7 +939,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.12mm Fine @BBL X1C",
+      "target_preset": "0.12mm Fine @BBL A1",
       "base_preset": "0.12mm Fine @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -823,7 +1023,7 @@
       "overrides": {}
     },
     "filaments": [
-      "PETG P1S Tuned"
+      "PETG A1 Tuned"
     ],
     "advisories": [],
     "metrics": {
@@ -846,7 +1046,7 @@
       "logod.stl"
     ],
     "profile": {
-      "preset": "0.12mm Fine @BBL X1C",
+      "preset": "0.12mm Fine @BBL A1",
       "layer": "0.12",
       "first_layer": "0.2",
       "walls": "3",
@@ -857,19 +1057,52 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "5"
+    },
+    "a1": {
+      "p1s_count": 2,
+      "p1s": {
+        "model_time": "5h 51m 7s",
+        "total_time": "5h 57m 26s",
+        "layers": "166",
+        "density": "1.25",
+        "max_z": "20.00",
+        "used_mm": 48916.05,
+        "used_cm3": 117.66,
+        "used_g": 147.07
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "keywings",
     "id": 8,
     "title": "KeyWings",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/08 KeyWings - PETG x76.3mf",
+    "path": "../../Full Plates/08 KeyWings - PETG x73.3mf",
     "layout": "single (capped from 88 for print time)",
-    "file": "08 KeyWings - PETG x76.3mf",
+    "file": "08 KeyWings - PETG x73.3mf",
     "material": "PETG",
-    "count": 76,
+    "count": 73,
     "unit": "copies",
-    "objects": 76,
+    "objects": 73,
     "issues": [],
     "bbox": {
       "1": {
@@ -884,7 +1117,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL A1M",
       "base_note": null,
       "from_reference": {
@@ -972,11 +1205,11 @@
       "kept_p1s": {
         "default_acceleration": [
           "6000",
-          "10000"
+          "6000"
         ],
         "elefant_foot_compensation": [
           "0",
-          "0.15"
+          "0.075"
         ],
         "flush_multiplier": [
           "1",
@@ -996,11 +1229,11 @@
         ],
         "smooth_coefficient": [
           "80",
-          "150"
+          "80"
         ],
         "travel_speed": [
           "700",
-          "500"
+          "700"
         ]
       },
       "ambiguous": {
@@ -1026,7 +1259,7 @@
     "capped_from": 88,
     "margin": 5.0,
     "filaments": [
-      "PETG P1S Tuned"
+      "PETG A1 Tuned"
     ],
     "advisories": [
       "Body_05*: tall and narrow (21 mm on a 6 mm footprint) with brim off in the designer's profile"
@@ -1051,7 +1284,7 @@
       "Body_05*"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "3",
@@ -1062,13 +1295,57 @@
       "brim": "no_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 76,
+      "p1s": {
+        "model_time": "13h 50m 17s",
+        "total_time": "13h 56m 36s",
+        "layers": "105",
+        "density": "1.25",
+        "max_z": "21.00",
+        "used_mm": 78815.11,
+        "used_cm3": 189.57,
+        "used_g": 236.97
+      },
+      "trims": [
+        [
+          76,
+          74,
+          "14h 22m 29s"
+        ],
+        [
+          74,
+          73,
+          "14h 0m 33s"
+        ]
+      ],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "drag-writer",
     "id": 9,
     "title": "DRAG Assistive Writer (kit of 3)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/09 DRAG Assistive Writer (kit of 3) - PLA x2.3mf",
+    "path": "../../Full Plates/09 DRAG Assistive Writer (kit of 3) - PLA x2.3mf",
     "layout": "kit by kit (15 deg)",
     "file": "09 DRAG Assistive Writer (kit of 3) - PLA x2.3mf",
     "material": "PLA",
@@ -1089,7 +1366,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -1169,7 +1446,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [
       "DRAG left plate: 98 mm2 of steep overhang with air under it (max drop 6.1 mm at z=9 mm) while supports are off in the designer's profile - worth a look at the preview",
@@ -1225,7 +1502,7 @@
       "DRAG centre plate"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -1236,6 +1513,39 @@
       "brim": "no_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 2,
+      "p1s": {
+        "model_time": "3h 33m 17s",
+        "total_time": "3h 39m 32s",
+        "layers": "140",
+        "density": "1.26",
+        "max_z": "28.00",
+        "used_mm": 48317.9,
+        "used_cm3": 116.22,
+        "used_g": 146.43
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
@@ -1266,10 +1576,10 @@
     "spacing": {
       "gap": 5.75,
       "edge": 5.2,
-      "corner": 16.6
+      "corner": null
     },
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -1278,7 +1588,7 @@
       "overrides": {}
     },
     "filaments": [
-      "PETG P1S Tuned"
+      "PETG A1 Tuned"
     ],
     "advisories": [],
     "metrics": {
@@ -1301,7 +1611,7 @@
       "Blister Pack Opener.step"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "5",
@@ -1312,13 +1622,46 @@
       "brim": "outer_only",
       "top": "6",
       "bottom": "6"
+    },
+    "a1": {
+      "p1s_count": 8,
+      "p1s": {
+        "model_time": "8h 31m 31s",
+        "total_time": "8h 37m 51s",
+        "layers": "120",
+        "density": "1.25",
+        "max_z": "24.00",
+        "used_mm": 78886.69,
+        "used_cm3": 189.74,
+        "used_g": 237.18
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "pill-popper",
     "id": 11,
     "title": "Pill Popper",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/11 Pill Popper - PETG x21.3mf",
+    "path": "../../Full Plates/11 Pill Popper - PETG x21.3mf",
     "layout": "single",
     "file": "11 Pill Popper - PETG x21.3mf",
     "material": "PETG",
@@ -1339,7 +1682,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Strength @BBL X1C",
+      "target_preset": "0.20mm Strength @BBL A1",
       "base_preset": "0.20mm Strength @BBL A1M",
       "base_note": null,
       "from_reference": {
@@ -1363,11 +1706,11 @@
         ],
         "default_acceleration": [
           "6000",
-          "10000"
+          "6000"
         ],
         "elefant_foot_compensation": [
           "0",
-          "0.15"
+          "0.075"
         ],
         "extruder_ams_count": [
           "1#0|4#0",
@@ -1391,11 +1734,11 @@
         ],
         "smooth_coefficient": [
           "80",
-          "150"
+          "80"
         ],
         "travel_speed": [
           "700",
-          "500"
+          "700"
         ]
       },
       "ambiguous": {
@@ -1427,7 +1770,7 @@
       "overrides": {}
     },
     "filaments": [
-      "PETG P1S Tuned"
+      "PETG A1 Tuned"
     ],
     "advisories": [
       "Body_08*2: 247 mm2 of steep overhang with air under it (max drop 3.6 mm at z=4 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -1452,7 +1795,7 @@
       "Body_08*2"
     ],
     "profile": {
-      "preset": "0.20mm Strength @BBL X1C",
+      "preset": "0.20mm Strength @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "6",
@@ -1463,13 +1806,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 21,
+      "p1s": {
+        "model_time": "8h 16m 23s",
+        "total_time": "8h 22m 50s",
+        "layers": "73",
+        "density": "1.25",
+        "max_z": "14.60",
+        "used_mm": 55143.59,
+        "used_cm3": 132.64,
+        "used_g": 165.79
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "clothes-button-hook",
     "id": 12,
     "title": "Clothes Button & Zipper Hook (hook, PETG)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/12 Clothes Button & Zipper Hook (hook, PETG) - PETG x9.3mf",
+    "path": "../../Full Plates/12 Clothes Button & Zipper Hook (hook, PETG) - PETG x9.3mf",
     "layout": "single",
     "file": "12 Clothes Button & Zipper Hook (hook, PETG) - PETG x9.3mf",
     "material": "PETG",
@@ -1490,7 +1866,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Strength @BBL X1C",
+      "target_preset": "0.20mm Strength @BBL A1",
       "base_preset": "0.20mm Strength @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -1558,7 +1934,7 @@
       "overrides": {}
     },
     "filaments": [
-      "PETG P1S Tuned"
+      "PETG A1 Tuned"
     ],
     "advisories": [],
     "metrics": {
@@ -1581,7 +1957,7 @@
       "central-loop-and-hook-button-and-zipper-hook.stl"
     ],
     "profile": {
-      "preset": "0.20mm Strength @BBL X1C",
+      "preset": "0.20mm Strength @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "6",
@@ -1592,13 +1968,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 9,
+      "p1s": {
+        "model_time": "1h 37m 24s",
+        "total_time": "1h 43m 51s",
+        "layers": "10",
+        "density": "1.25",
+        "max_z": "2.00",
+        "used_mm": 12614.08,
+        "used_cm3": 30.34,
+        "used_g": 37.93
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "clothes-button-handles",
     "id": 13,
     "title": "Clothes Button & Zipper Hook (handle kit, PLA)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/13 Clothes Button & Zipper Hook (handle kit, PLA) - PLA x8.3mf",
+    "path": "../../Full Plates/13 Clothes Button & Zipper Hook (handle kit, PLA) - PLA x8.3mf",
     "layout": "kit by kit (15 deg)",
     "file": "13 Clothes Button & Zipper Hook (handle kit, PLA) - PLA x8.3mf",
     "material": "PLA",
@@ -1619,7 +2028,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Strength @BBL X1C",
+      "target_preset": "0.20mm Strength @BBL A1",
       "base_preset": "0.20mm Strength @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -1687,7 +2096,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [
       "Handle+scales.stl: 1157 mm2 of steep overhang with air under it (max drop 5.0 mm at z=5 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -1727,7 +2136,7 @@
       "Connector+pin.stl"
     ],
     "profile": {
-      "preset": "0.20mm Strength @BBL X1C",
+      "preset": "0.20mm Strength @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "3/6",
@@ -1738,13 +2147,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 8,
+      "p1s": {
+        "model_time": "3h 57m 23s",
+        "total_time": "4h 3m 50s",
+        "layers": "64",
+        "density": "1.26",
+        "max_z": "7.60",
+        "used_mm": 32543.67,
+        "used_cm3": 78.28,
+        "used_g": 98.63
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "flipper-nail-clipper-large",
     "id": 14,
     "title": "Flipper Nail Clipper (large clippers)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/14 Flipper Nail Clipper (large clippers) - PLA x3.3mf",
+    "path": "../../Full Plates/14 Flipper Nail Clipper (large clippers) - PLA x3.3mf",
     "layout": "single",
     "file": "14 Flipper Nail Clipper (large clippers) - PLA x3.3mf",
     "material": "PLA",
@@ -1765,7 +2207,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL A1M",
       "base_note": null,
       "from_reference": {
@@ -1785,11 +2227,11 @@
       "kept_p1s": {
         "default_acceleration": [
           "6000",
-          "10000"
+          "6000"
         ],
         "elefant_foot_compensation": [
           "0",
-          "0.15"
+          "0.075"
         ],
         "flush_multiplier": [
           "1",
@@ -1809,7 +2251,7 @@
         ],
         "smooth_coefficient": [
           "80",
-          "150"
+          "80"
         ],
         "top_area_threshold": [
           "100%",
@@ -1817,7 +2259,7 @@
         ],
         "travel_speed": [
           "700",
-          "500"
+          "700"
         ]
       },
       "ambiguous": {
@@ -1845,7 +2287,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [
       "Flipper Clipper mod for large size nailcutter.stl: 522 mm2 of steep overhang with air under it (max drop 6.0 mm at z=8 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -1870,7 +2312,7 @@
       "Flipper Clipper mod for large size nailcutter.stl"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -1881,13 +2323,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 3,
+      "p1s": {
+        "model_time": "2h 15m 2s",
+        "total_time": "2h 21m 17s",
+        "layers": "60",
+        "density": "1.26",
+        "max_z": "12.00",
+        "used_mm": 29965.0,
+        "used_cm3": 72.07,
+        "used_g": 90.81
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "flipper-clipper-v2",
     "id": 15,
     "title": "Flipper the Clipper v2 (Thingiverse)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/15 Flipper the Clipper v2 (Thingiverse) - PLA x4.3mf",
+    "path": "../../Full Plates/15 Flipper the Clipper v2 (Thingiverse) - PLA x4.3mf",
     "layout": "pairs at 55deg",
     "file": "15 Flipper the Clipper v2 (Thingiverse) - PLA x4.3mf",
     "material": "PLA",
@@ -1908,7 +2383,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -1930,7 +2405,7 @@
       }
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [
       "Flipper the Clipper v2 (Thingiverse): 452 mm2 of steep overhang with air under it (max drop 6.0 mm at z=8 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -1955,7 +2430,7 @@
       "Flipper the Clipper v2 (Thingiverse)"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -1966,13 +2441,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 4,
+      "p1s": {
+        "model_time": "4h 13m 16s",
+        "total_time": "4h 19m 31s",
+        "layers": "55",
+        "density": "1.26",
+        "max_z": "11.00",
+        "used_mm": 60704.72,
+        "used_cm3": 146.01,
+        "used_g": 183.98
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "eating-utensil-aid",
     "id": 16,
     "title": "Eating Utensil Aid (kit)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/16 Eating Utensil Aid (kit) - PLA x5.3mf",
+    "path": "../../Full Plates/16 Eating Utensil Aid (kit) - PLA x5.3mf",
     "layout": "kit by kit (15 deg) (corner kept clear)",
     "file": "16 Eating Utensil Aid (kit) - PLA x5.3mf",
     "material": "PLA",
@@ -1993,7 +2501,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -2037,7 +2545,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [
       "Spoon Holder.stl: 610 mm2 of steep overhang with air under it (max drop 21.0 mm at z=23 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -2077,7 +2585,7 @@
       "Nut for Spoon Holder.stl"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -2088,13 +2596,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 5,
+      "p1s": {
+        "model_time": "9h 43m 38s",
+        "total_time": "9h 49m 52s",
+        "layers": "125",
+        "density": "1.26",
+        "max_z": "25.00",
+        "used_mm": 76283.54,
+        "used_cm3": 183.48,
+        "used_g": 231.19
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "shoe-horn",
     "id": 17,
     "title": "Quick-Slip Shoe Horn",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/17 Quick-Slip Shoe Horn - PETG x12.3mf",
+    "path": "../../Full Plates/17 Quick-Slip Shoe Horn - PETG x12.3mf",
     "layout": "single",
     "file": "17 Quick-Slip Shoe Horn - PETG x12.3mf",
     "material": "PETG",
@@ -2115,7 +2656,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL H2S",
       "base_note": null,
       "from_reference": {
@@ -2131,7 +2672,7 @@
         ],
         "default_acceleration": [
           "10000",
-          "10000"
+          "6000"
         ],
         "enable_height_slowdown": [
           "0",
@@ -2259,7 +2800,7 @@
         ],
         "smooth_coefficient": [
           "4",
-          "150"
+          "80"
         ],
         "sparse_infill_acceleration": [
           "100%",
@@ -2295,7 +2836,7 @@
         ],
         "travel_speed": [
           "1000",
-          "500"
+          "700"
         ],
         "travel_speed_z": [
           "0",
@@ -2331,7 +2872,7 @@
       "overrides": {}
     },
     "filaments": [
-      "PETG P1S Tuned"
+      "PETG A1 Tuned"
     ],
     "advisories": [],
     "metrics": {
@@ -2354,7 +2895,7 @@
       "Shoe Horn.stl"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -2365,13 +2906,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 12,
+      "p1s": {
+        "model_time": "11h 39m 58s",
+        "total_time": "11h 46m 18s",
+        "layers": "220",
+        "density": "1.25",
+        "max_z": "44.00",
+        "used_mm": 98601.44,
+        "used_cm3": 237.16,
+        "used_g": 296.46
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "tube-opener",
     "id": 18,
     "title": "Tuber Opener",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/18 Tuber Opener - PLA x12.3mf",
+    "path": "../../Full Plates/18 Tuber Opener - PLA x12.3mf",
     "layout": "pairs at 0deg",
     "file": "18 Tuber Opener - PLA x12.3mf",
     "material": "PLA",
@@ -2392,7 +2966,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.16mm Optimal @BBL X1C",
+      "target_preset": "0.16mm Optimal @BBL A1",
       "base_preset": "0.16mm Optimal @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -2406,7 +2980,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -2429,7 +3003,7 @@
       "Tube_Opener.stl"
     ],
     "profile": {
-      "preset": "0.16mm Optimal @BBL X1C",
+      "preset": "0.16mm Optimal @BBL A1",
       "layer": "0.16",
       "first_layer": "0.2",
       "walls": "4",
@@ -2440,19 +3014,52 @@
       "brim": "auto_brim",
       "top": "6",
       "bottom": "4"
+    },
+    "a1": {
+      "p1s_count": 12,
+      "p1s": {
+        "model_time": "6h 45m 3s",
+        "total_time": "6h 51m 19s",
+        "layers": "131",
+        "density": "1.26",
+        "max_z": "21.00",
+        "used_mm": 66884.84,
+        "used_cm3": 160.88,
+        "used_g": 202.7
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "toothbrush-grip",
     "id": 19,
     "title": "Arthritis Toothbrush Grip",
-    "path": "../../Full Plates/19 Arthritis Toothbrush Grip - PLA x19.3mf",
+    "path": "../../Full Plates/19 Arthritis Toothbrush Grip - PLA x17.3mf",
     "layout": "single (capped from 25 for print time)",
-    "file": "19 Arthritis Toothbrush Grip - PLA x19.3mf",
+    "file": "19 Arthritis Toothbrush Grip - PLA x17.3mf",
     "material": "PLA",
-    "count": 19,
+    "count": 17,
     "unit": "copies",
-    "objects": 19,
+    "objects": 17,
     "issues": [],
     "bbox": {
       "1": {
@@ -2467,7 +3074,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -2478,7 +3085,7 @@
     "capped_from": 25,
     "margin": 5.0,
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -2501,7 +3108,7 @@
       "Arthritis Toothbrush Grip"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -2509,16 +3116,57 @@
       "pattern": "grid",
       "support": "0",
       "support_type": "tree(auto)",
-      "brim": "auto_brim",
+      "brim": "outer_only",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 19,
+      "p1s": {
+        "model_time": "13h 17m 2s",
+        "total_time": "13h 23m 17s",
+        "layers": "500",
+        "density": "1.26",
+        "max_z": "100.00",
+        "used_mm": 197745.94,
+        "used_cm3": 475.63,
+        "used_g": 599.3
+      },
+      "trims": [
+        [
+          19,
+          17,
+          "15h 13m 25s"
+        ]
+      ],
+      "brims": [
+        "Arthritis Toothbrush Grip"
+      ],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "book-holder",
     "id": 20,
     "title": "One-Handed Page Holder",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/20 One-Handed Page Holder - PLA x23.3mf",
+    "path": "../../Full Plates/20 One-Handed Page Holder - PLA x23.3mf",
     "layout": "single",
     "file": "20 One-Handed Page Holder - PLA x23.3mf",
     "material": "PLA",
@@ -2539,7 +3187,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.16mm Optimal @BBL X1C",
+      "target_preset": "0.16mm Optimal @BBL A1",
       "base_preset": "0.16mm Optimal @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -2553,7 +3201,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -2576,7 +3224,7 @@
       "One_Handed_Book_Holder.stl"
     ],
     "profile": {
-      "preset": "0.16mm Optimal @BBL X1C",
+      "preset": "0.16mm Optimal @BBL A1",
       "layer": "0.16",
       "first_layer": "0.2",
       "walls": "3",
@@ -2587,13 +3235,46 @@
       "brim": "auto_brim",
       "top": "6",
       "bottom": "4"
+    },
+    "a1": {
+      "p1s_count": 23,
+      "p1s": {
+        "model_time": "8h 4m 16s",
+        "total_time": "8h 10m 32s",
+        "layers": "125",
+        "density": "1.26",
+        "max_z": "20.04",
+        "used_mm": 75251.03,
+        "used_cm3": 181.0,
+        "used_g": 228.06
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "phone-magnifier-stand",
     "id": 21,
     "title": "Smartphone Magnification Stand",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/21 Smartphone Magnification Stand - PLA x12.3mf",
+    "path": "../../Full Plates/21 Smartphone Magnification Stand - PLA x12.3mf",
     "layout": "pairs at 0deg",
     "file": "21 Smartphone Magnification Stand - PLA x12.3mf",
     "material": "PLA",
@@ -2614,7 +3295,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.16mm Optimal @BBL X1C",
+      "target_preset": "0.16mm Optimal @BBL A1",
       "base_preset": "0.16mm Optimal @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -2623,7 +3304,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [
       "Smartphone Magnification Stand.stl: 72 mm2 of steep overhang with air under it (max drop 5.0 mm at z=13 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -2648,7 +3329,7 @@
       "Smartphone Magnification Stand.stl"
     ],
     "profile": {
-      "preset": "0.16mm Optimal @BBL X1C",
+      "preset": "0.16mm Optimal @BBL A1",
       "layer": "0.16",
       "first_layer": "0.2",
       "walls": "2",
@@ -2659,13 +3340,46 @@
       "brim": "auto_brim",
       "top": "6",
       "bottom": "4"
+    },
+    "a1": {
+      "p1s_count": 12,
+      "p1s": {
+        "model_time": "10h 4m 35s",
+        "total_time": "10h 10m 51s",
+        "layers": "250",
+        "density": "1.26",
+        "max_z": "40.04",
+        "used_mm": 102989.12,
+        "used_cm3": 247.72,
+        "used_g": 312.12
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "eda-pliers-bd20",
     "id": 22,
     "title": "Eye Drop Assist pliers (bottle 20 mm)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/22 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf",
+    "path": "../../Full Plates/22 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf",
     "layout": "pairs at 50deg",
     "file": "22 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf",
     "material": "PLA",
@@ -2686,7 +3400,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -2695,7 +3409,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -2718,7 +3432,7 @@
       "Eye Drop Assist pliers (bottle 20 mm)"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -2729,13 +3443,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 2,
+      "p1s": {
+        "model_time": "53m 18s",
+        "total_time": "59m 33s",
+        "layers": "30",
+        "density": "1.26",
+        "max_z": "6.00",
+        "used_mm": 9561.13,
+        "used_cm3": 23.0,
+        "used_g": 28.98
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "eda-pliers-bd22",
     "id": 23,
     "title": "Eye Drop Assist pliers (bottle 22 mm)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/23 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf",
+    "path": "../../Full Plates/23 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf",
     "layout": "pairs at 50deg",
     "file": "23 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf",
     "material": "PLA",
@@ -2756,7 +3503,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -2765,7 +3512,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -2788,7 +3535,7 @@
       "Eye Drop Assist pliers (bottle 22 mm)"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -2799,13 +3546,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 2,
+      "p1s": {
+        "model_time": "53m 4s",
+        "total_time": "59m 19s",
+        "layers": "30",
+        "density": "1.26",
+        "max_z": "6.00",
+        "used_mm": 9484.29,
+        "used_cm3": 22.81,
+        "used_g": 28.74
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "eda-pliers-bd24",
     "id": 24,
     "title": "Eye Drop Assist pliers (bottle 24 mm)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/24 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf",
+    "path": "../../Full Plates/24 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf",
     "layout": "pairs at 50deg",
     "file": "24 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf",
     "material": "PLA",
@@ -2826,7 +3606,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -2835,7 +3615,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -2858,7 +3638,7 @@
       "Eye Drop Assist pliers (bottle 24 mm)"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -2869,13 +3649,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 2,
+      "p1s": {
+        "model_time": "52m 44s",
+        "total_time": "58m 59s",
+        "layers": "30",
+        "density": "1.26",
+        "max_z": "6.00",
+        "used_mm": 9425.74,
+        "used_cm3": 22.67,
+        "used_g": 28.57
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "eda-pliers-bd25",
     "id": 25,
     "title": "Eye Drop Assist pliers (bottle 25 mm)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/25 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf",
+    "path": "../../Full Plates/25 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf",
     "layout": "pairs at 50deg",
     "file": "25 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf",
     "material": "PLA",
@@ -2896,7 +3709,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -2905,7 +3718,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -2928,7 +3741,7 @@
       "Eye Drop Assist pliers (bottle 25 mm)"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -2939,13 +3752,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 2,
+      "p1s": {
+        "model_time": "50m 50s",
+        "total_time": "57m 5s",
+        "layers": "30",
+        "density": "1.26",
+        "max_z": "6.00",
+        "used_mm": 9212.32,
+        "used_cm3": 22.16,
+        "used_g": 27.92
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "eda-eyepiece-03a",
     "id": 26,
     "title": "Eye Drop Assist eyepiece 03 A",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/26 Eye Drop Assist eyepiece 03 A - PLA x35.3mf",
+    "path": "../../Full Plates/26 Eye Drop Assist eyepiece 03 A - PLA x35.3mf",
     "layout": "single",
     "file": "26 Eye Drop Assist eyepiece 03 A - PLA x35.3mf",
     "material": "PLA",
@@ -2966,7 +3812,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -2975,7 +3821,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [
       "Eye Drop Assist eyepiece 03 A: 130 mm2 of steep overhang with air under it (max drop 25.2 mm at z=25 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -3000,7 +3846,7 @@
       "Eye Drop Assist eyepiece 03 A"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -3011,13 +3857,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 35,
+      "p1s": {
+        "model_time": "4h 58m 59s",
+        "total_time": "5h 5m 14s",
+        "layers": "145",
+        "density": "1.26",
+        "max_z": "29.00",
+        "used_mm": 38832.37,
+        "used_cm3": 93.4,
+        "used_g": 117.69
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "eda-eyepiece-03b",
     "id": 27,
     "title": "Eye Drop Assist eyepiece 03 B",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/27 Eye Drop Assist eyepiece 03 B - PLA x35.3mf",
+    "path": "../../Full Plates/27 Eye Drop Assist eyepiece 03 B - PLA x35.3mf",
     "layout": "single",
     "file": "27 Eye Drop Assist eyepiece 03 B - PLA x35.3mf",
     "material": "PLA",
@@ -3038,7 +3917,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -3047,7 +3926,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -3070,7 +3949,7 @@
       "Eye Drop Assist eyepiece 03 B"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -3081,13 +3960,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 35,
+      "p1s": {
+        "model_time": "4h 36m 35s",
+        "total_time": "4h 42m 50s",
+        "layers": "145",
+        "density": "1.26",
+        "max_z": "29.00",
+        "used_mm": 37403.2,
+        "used_cm3": 89.97,
+        "used_g": 113.36
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "eda-eyepiece-03c",
     "id": 28,
     "title": "Eye Drop Assist eyepiece 03 C",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/28 Eye Drop Assist eyepiece 03 C - PLA x35.3mf",
+    "path": "../../Full Plates/28 Eye Drop Assist eyepiece 03 C - PLA x35.3mf",
     "layout": "single",
     "file": "28 Eye Drop Assist eyepiece 03 C - PLA x35.3mf",
     "material": "PLA",
@@ -3108,7 +4020,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -3117,7 +4029,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [
       "Eye Drop Assist eyepiece 03 C: 158 mm2 of steep overhang with air under it (max drop 25.2 mm at z=25 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -3142,7 +4054,7 @@
       "Eye Drop Assist eyepiece 03 C"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -3153,13 +4065,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 35,
+      "p1s": {
+        "model_time": "4h 55m 42s",
+        "total_time": "5h 1m 57s",
+        "layers": "145",
+        "density": "1.26",
+        "max_z": "29.00",
+        "used_mm": 40411.35,
+        "used_cm3": 97.2,
+        "used_g": 122.47
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "eda-eyepiece-04d",
     "id": 29,
     "title": "Eye Drop Assist eyepiece 04 D",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/29 Eye Drop Assist eyepiece 04 D - PLA x35.3mf",
+    "path": "../../Full Plates/29 Eye Drop Assist eyepiece 04 D - PLA x35.3mf",
     "layout": "single",
     "file": "29 Eye Drop Assist eyepiece 04 D - PLA x35.3mf",
     "material": "PLA",
@@ -3180,7 +4125,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -3189,7 +4134,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [
       "Eye Drop Assist eyepiece 04 D: 168 mm2 of steep overhang with air under it (max drop 25.2 mm at z=25 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -3214,7 +4159,7 @@
       "Eye Drop Assist eyepiece 04 D"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -3225,13 +4170,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 35,
+      "p1s": {
+        "model_time": "5h 35m 1s",
+        "total_time": "5h 41m 16s",
+        "layers": "165",
+        "density": "1.26",
+        "max_z": "33.00",
+        "used_mm": 45093.61,
+        "used_cm3": 108.46,
+        "used_g": 136.66
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "eda-eyepiece-04e",
     "id": 30,
     "title": "Eye Drop Assist eyepiece 04 E",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/30 Eye Drop Assist eyepiece 04 E - PLA x35.3mf",
+    "path": "../../Full Plates/30 Eye Drop Assist eyepiece 04 E - PLA x35.3mf",
     "layout": "single",
     "file": "30 Eye Drop Assist eyepiece 04 E - PLA x35.3mf",
     "material": "PLA",
@@ -3252,7 +4230,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -3261,7 +4239,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -3284,7 +4262,7 @@
       "Eye Drop Assist eyepiece 04 E"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -3295,13 +4273,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 35,
+      "p1s": {
+        "model_time": "5h 15m 1s",
+        "total_time": "5h 21m 16s",
+        "layers": "165",
+        "density": "1.26",
+        "max_z": "33.00",
+        "used_mm": 43178.63,
+        "used_cm3": 103.86,
+        "used_g": 130.86
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "bedside-box",
     "id": 31,
     "title": "Bedside Hook-On Storage Box (kit)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/31 Bedside Hook-On Storage Box (kit) - PLA x1.3mf",
+    "path": "../../Full Plates/31 Bedside Hook-On Storage Box (kit) - PLA x1.3mf",
     "layout": "kit by kit (15 deg)",
     "file": "31 Bedside Hook-On Storage Box (kit) - PLA x1.3mf",
     "material": "PLA",
@@ -3322,7 +4333,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -3386,7 +4397,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -3424,7 +4435,7 @@
       "Bedside Holder v3 hook.stl"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -3435,19 +4446,52 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 1,
+      "p1s": {
+        "model_time": "4h 6m 9s",
+        "total_time": "4h 12m 24s",
+        "layers": "443",
+        "density": "1.26",
+        "max_z": "99.99",
+        "used_mm": 75551.48,
+        "used_cm3": 181.72,
+        "used_g": 228.97
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "toothpaste-squeezer-gear",
     "id": 32,
     "title": "Toothpaste Squeezer, external gear (kit)",
-    "path": "../../Full Plates/32 Toothpaste Squeezer, external gear (kit) - PLA x8.3mf",
+    "path": "../../Full Plates/32 Toothpaste Squeezer, external gear (kit) - PLA x7.3mf",
     "layout": "kit by kit (15 deg) (capped from 10 for print time)",
-    "file": "32 Toothpaste Squeezer, external gear (kit) - PLA x8.3mf",
+    "file": "32 Toothpaste Squeezer, external gear (kit) - PLA x7.3mf",
     "material": "PLA",
-    "count": 8,
+    "count": 7,
     "unit": "kits",
-    "objects": 24,
+    "objects": 21,
     "issues": [],
     "bbox": {
       "1": {
@@ -3462,7 +4506,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -3512,7 +4556,7 @@
     "capped_from": 10,
     "margin": 5.0,
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [
       "Squeezer base (Seigaiha pattern): 186 mm2 of steep overhang with air under it (max drop 57.0 mm at z=60 mm) while supports are off in the designer's profile - worth a look at the preview",
@@ -3568,7 +4612,7 @@
       "Key shaft 0.7 mm (standard)"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "3",
@@ -3576,16 +4620,57 @@
       "pattern": "grid/gyroid",
       "support": "0",
       "support_type": "tree(auto)",
-      "brim": "auto_brim",
+      "brim": "auto_brim/outer_only",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 8,
+      "p1s": {
+        "model_time": "13h 49m 37s",
+        "total_time": "13h 55m 52s",
+        "layers": "340",
+        "density": "1.26",
+        "max_z": "68.00",
+        "used_mm": 106698.76,
+        "used_cm3": 256.64,
+        "used_g": 323.37
+      },
+      "trims": [
+        [
+          8,
+          7,
+          "15h 52m 17s"
+        ]
+      ],
+      "brims": [
+        "Squeezer base (Seigaiha pattern)"
+      ],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "chopstick-helper",
     "id": 33,
     "title": "Chopstick Helper (small)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/33 Chopstick Helper (small) - PLA x48.3mf",
+    "path": "../../Full Plates/33 Chopstick Helper (small) - PLA x48.3mf",
     "layout": "pairs at 135deg",
     "file": "33 Chopstick Helper (small) - PLA x48.3mf",
     "material": "PLA",
@@ -3606,7 +4691,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -3702,7 +4787,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [
       "chopstick_helper_smooth.stl: 115 mm2 of steep overhang with air under it (max drop 6.1 mm at z=8 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -3727,7 +4812,7 @@
       "chopstick_helper_smooth.stl"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "6",
@@ -3738,13 +4823,46 @@
       "brim": "auto_brim",
       "top": "1",
       "bottom": "1"
+    },
+    "a1": {
+      "p1s_count": 48,
+      "p1s": {
+        "model_time": "6h 12m 30s",
+        "total_time": "6h 18m 45s",
+        "layers": "54",
+        "density": "1.26",
+        "max_z": "10.80",
+        "used_mm": 49221.33,
+        "used_cm3": 118.39,
+        "used_g": 149.17
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "soup-can-opener",
     "id": 34,
     "title": "Soup Can Opener (no magnets)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/34 Soup Can Opener (no magnets) - PETG x12.3mf",
+    "path": "../../Full Plates/34 Soup Can Opener (no magnets) - PETG x12.3mf",
     "layout": "single",
     "file": "34 Soup Can Opener (no magnets) - PETG x12.3mf",
     "material": "PETG",
@@ -3765,7 +4883,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Strength @BBL X1C",
+      "target_preset": "0.20mm Strength @BBL A1",
       "base_preset": "0.20mm Strength @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -3877,7 +4995,7 @@
       "overrides": {}
     },
     "filaments": [
-      "PETG P1S Tuned"
+      "PETG A1 Tuned"
     ],
     "advisories": [
       "Soup Can Opener v5.stl: 235 mm2 of steep overhang with air under it (max drop 3.7 mm at z=5 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -3902,7 +5020,7 @@
       "Soup Can Opener v5.stl"
     ],
     "profile": {
-      "preset": "0.20mm Strength @BBL X1C",
+      "preset": "0.20mm Strength @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "4",
@@ -3913,6 +5031,39 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "5"
+    },
+    "a1": {
+      "p1s_count": 12,
+      "p1s": {
+        "model_time": "6h 6m 11s",
+        "total_time": "6h 12m 36s",
+        "layers": "34",
+        "density": "1.25",
+        "max_z": "6.80",
+        "used_mm": 47805.67,
+        "used_cm3": 114.99,
+        "used_g": 143.73
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
@@ -3940,7 +5091,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.24mm Draft @BBL X1C",
+      "target_preset": "0.24mm Draft @BBL A1",
       "base_preset": "0.24mm Draft @BBL A1M",
       "base_note": null,
       "from_reference": {
@@ -4016,11 +5167,11 @@
         ],
         "default_acceleration": [
           "6000",
-          "10000"
+          "6000"
         ],
         "elefant_foot_compensation": [
           "0",
-          "0.15"
+          "0.075"
         ],
         "flush_multiplier": [
           "1",
@@ -4040,11 +5191,11 @@
         ],
         "smooth_coefficient": [
           "80",
-          "150"
+          "80"
         ],
         "travel_speed": [
           "700",
-          "500"
+          "700"
         ]
       },
       "ambiguous": {
@@ -4072,7 +5223,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [
       "Body_03: 359 mm2 of steep overhang with air under it (max drop 14.3 mm at z=20 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -4097,7 +5248,7 @@
       "Body_03"
     ],
     "profile": {
-      "preset": "0.24mm Draft @BBL X1C",
+      "preset": "0.24mm Draft @BBL A1",
       "layer": "0.24",
       "first_layer": "0.24",
       "walls": "2",
@@ -4108,6 +5259,39 @@
       "brim": "no_brim",
       "top": "3",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 8,
+      "p1s": {
+        "model_time": "6h 13m 50s",
+        "total_time": "6h 20m 5s",
+        "layers": "108",
+        "density": "1.26",
+        "max_z": "26.22",
+        "used_mm": 53260.67,
+        "used_cm3": 128.11,
+        "used_g": 161.41
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
@@ -4138,10 +5322,10 @@
     "spacing": {
       "gap": 5.0,
       "edge": 0.7,
-      "corner": 20.5
+      "corner": null
     },
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -4150,7 +5334,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [
       "YOUNGER__GRIP_NO Magnets_.stl: 240 mm2 of steep overhang with air under it (max drop 15.4 mm at z=15 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -4175,7 +5359,7 @@
       "YOUNGER__GRIP_NO Magnets_.stl"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "3",
@@ -4186,13 +5370,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 8,
+      "p1s": {
+        "model_time": "9h 13m 46s",
+        "total_time": "9h 20m 1s",
+        "layers": "127",
+        "density": "1.26,1.26,1.26,1.26",
+        "max_z": "24.80",
+        "used_mm": 84890.04,
+        "used_cm3": 204.18,
+        "used_g": 257.27
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "plug-puller",
     "id": 37,
     "title": "Plug Puller (WATAP)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/37 Plug Puller (WATAP) - PLA x9.3mf",
+    "path": "../../Full Plates/37 Plug Puller (WATAP) - PLA x9.3mf",
     "layout": "single",
     "file": "37 Plug Puller (WATAP) - PLA x9.3mf",
     "material": "PLA",
@@ -4213,7 +5430,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Strength @BBL X1C",
+      "target_preset": "0.20mm Strength @BBL A1",
       "base_preset": "0.20mm Strength @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -4285,7 +5502,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [
       "Plug Puller WATAP.stl: 156 mm2 of steep overhang with air under it (max drop 0.8 mm at z=1 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -4310,7 +5527,7 @@
       "Plug Puller WATAP.stl"
     ],
     "profile": {
-      "preset": "0.20mm Strength @BBL X1C",
+      "preset": "0.20mm Strength @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "3",
@@ -4321,19 +5538,52 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 9,
+      "p1s": {
+        "model_time": "2h 53m 24s",
+        "total_time": "2h 59m 51s",
+        "layers": "25",
+        "density": "1.26",
+        "max_z": "6.34",
+        "used_mm": 27768.59,
+        "used_cm3": 66.79,
+        "used_g": 84.16
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "pinky-saver",
     "id": 38,
     "title": "Pinky Saver 3 & Phone Stand",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/38 Pinky Saver 3 & Phone Stand - PLA x18.3mf",
+    "path": "../../Full Plates/38 Pinky Saver 3 & Phone Stand - PLA x18.3mf",
     "layout": "supplied plate, kept as arranged",
     "file": "38 Pinky Saver 3 & Phone Stand - PLA x18.3mf",
     "material": "PLA",
     "count": 18,
     "unit": "copies",
-    "objects": 18,
+    "objects": 1,
     "issues": [],
     "bbox": {
       "1": {
@@ -4351,10 +5601,10 @@
     "spacing": {
       "gap": 3.25,
       "edge": 3.0,
-      "corner": 3.0
+      "corner": null
     },
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -4363,7 +5613,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -4386,7 +5636,7 @@
       "pinky saver 3.stl"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -4397,6 +5647,39 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 18,
+      "p1s": {
+        "model_time": "5h 2m 18s",
+        "total_time": "5h 8m 33s",
+        "layers": "80",
+        "density": "1.26",
+        "max_z": "16.00",
+        "used_mm": 52462.37,
+        "used_cm3": 126.19,
+        "used_g": 159.0
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
@@ -4424,7 +5707,7 @@
     },
     "gap": 8.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -4472,7 +5755,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -4600,7 +5883,7 @@
       "FINGERS.stp"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "6",
@@ -4611,19 +5894,52 @@
       "brim": "brim_ears",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 1,
+      "p1s": {
+        "model_time": "5h 1m 0s",
+        "total_time": "5h 7m 16s",
+        "layers": "500",
+        "density": "1.26",
+        "max_z": "100.00",
+        "used_mm": 66598.29,
+        "used_cm3": 160.19,
+        "used_g": 201.84
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "cane-holder",
     "id": 40,
     "title": "Adjustable Cane Holder (kit)",
-    "path": "../../Full Plates/40 Adjustable Cane Holder (kit) - PLA x6.3mf",
+    "path": "../../Full Plates/40 Adjustable Cane Holder (kit) - PLA x5.3mf",
     "layout": "kit by kit (15 deg) (corner kept clear) (capped from 10 for print time)",
-    "file": "40 Adjustable Cane Holder (kit) - PLA x6.3mf",
+    "file": "40 Adjustable Cane Holder (kit) - PLA x5.3mf",
     "material": "PLA",
-    "count": 6,
+    "count": 5,
     "unit": "kits",
-    "objects": 18,
+    "objects": 15,
     "issues": [],
     "bbox": {
       "1": {
@@ -4638,7 +5954,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -4674,7 +5990,7 @@
     "capped_from": 10,
     "margin": 5.0,
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -4727,7 +6043,7 @@
       "Clamp protector"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -4738,13 +6054,54 @@
       "brim": "auto_brim/outer_only",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 6,
+      "p1s": {
+        "model_time": "12h 38m 47s",
+        "total_time": "12h 45m 2s",
+        "layers": "425",
+        "density": "1.26",
+        "max_z": "85.00",
+        "used_mm": 136361.67,
+        "used_cm3": 327.99,
+        "used_g": 413.27
+      },
+      "trims": [
+        [
+          6,
+          5,
+          "14h 35m 28s"
+        ]
+      ],
+      "brims": [
+        "Cane holder (textured clamp)"
+      ],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "hand-press-light",
     "id": 41,
     "title": "Hand Press / Grip Strengthener (Light)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/41 Hand Press - Grip Strengthener (Light) - PETG x5.3mf",
+    "path": "../../Full Plates/41 Hand Press - Grip Strengthener (Light) - PETG x5.3mf",
     "layout": "single",
     "file": "41 Hand Press - Grip Strengthener (Light) - PETG x5.3mf",
     "material": "PETG",
@@ -4765,7 +6122,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -4865,7 +6222,7 @@
       "overrides": {}
     },
     "filaments": [
-      "PETG P1S Tuned"
+      "PETG A1 Tuned"
     ],
     "advisories": [
       "Fingergrip Press Light.stl: 67 mm2 of steep overhang with air under it (max drop 4.0 mm at z=10 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -4890,7 +6247,7 @@
       "Fingergrip Press Light.stl"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "4",
@@ -4901,13 +6258,46 @@
       "brim": "auto_brim",
       "top": "6",
       "bottom": "6"
+    },
+    "a1": {
+      "p1s_count": 5,
+      "p1s": {
+        "model_time": "6h 36m 49s",
+        "total_time": "6h 43m 9s",
+        "layers": "75",
+        "density": "1.25",
+        "max_z": "15.00",
+        "used_mm": 64623.99,
+        "used_cm3": 155.44,
+        "used_g": 194.3
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "hand-press-medium",
     "id": 42,
     "title": "Hand Press / Grip Strengthener (Medium)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/42 Hand Press - Grip Strengthener (Medium) - PETG x5.3mf",
+    "path": "../../Full Plates/42 Hand Press - Grip Strengthener (Medium) - PETG x5.3mf",
     "layout": "single",
     "file": "42 Hand Press - Grip Strengthener (Medium) - PETG x5.3mf",
     "material": "PETG",
@@ -4928,7 +6318,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -5028,7 +6418,7 @@
       "overrides": {}
     },
     "filaments": [
-      "PETG P1S Tuned"
+      "PETG A1 Tuned"
     ],
     "advisories": [
       "Fingergrip Press Medium.stl: 67 mm2 of steep overhang with air under it (max drop 4.0 mm at z=10 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -5053,7 +6443,7 @@
       "Fingergrip Press Medium.stl"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "5",
@@ -5064,13 +6454,46 @@
       "brim": "auto_brim",
       "top": "6",
       "bottom": "6"
+    },
+    "a1": {
+      "p1s_count": 5,
+      "p1s": {
+        "model_time": "7h 27m 37s",
+        "total_time": "7h 33m 56s",
+        "layers": "75",
+        "density": "1.25",
+        "max_z": "15.00",
+        "used_mm": 73547.22,
+        "used_cm3": 176.9,
+        "used_g": 221.13
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "hand-press-hard",
     "id": 43,
     "title": "Hand Press / Grip Strengthener (Hard)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/43 Hand Press - Grip Strengthener (Hard) - PETG x5.3mf",
+    "path": "../../Full Plates/43 Hand Press - Grip Strengthener (Hard) - PETG x5.3mf",
     "layout": "single",
     "file": "43 Hand Press - Grip Strengthener (Hard) - PETG x5.3mf",
     "material": "PETG",
@@ -5091,7 +6514,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -5191,7 +6614,7 @@
       "overrides": {}
     },
     "filaments": [
-      "PETG P1S Tuned"
+      "PETG A1 Tuned"
     ],
     "advisories": [
       "Fingergrip Press Hard.stl: 67 mm2 of steep overhang with air under it (max drop 4.0 mm at z=10 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -5216,7 +6639,7 @@
       "Fingergrip Press Hard.stl"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "6",
@@ -5227,6 +6650,39 @@
       "brim": "auto_brim",
       "top": "6",
       "bottom": "6"
+    },
+    "a1": {
+      "p1s_count": 5,
+      "p1s": {
+        "model_time": "8h 7m 24s",
+        "total_time": "8h 13m 43s",
+        "layers": "75",
+        "density": "1.25",
+        "max_z": "15.00",
+        "used_mm": 81135.98,
+        "used_cm3": 195.15,
+        "used_g": 243.94
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
@@ -5254,7 +6710,7 @@
     },
     "gap": 8.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -5268,7 +6724,7 @@
       }
     },
     "filaments": [
-      "PETG P1S Tuned"
+      "PETG A1 Tuned"
     ],
     "advisories": [
       "Gimbal: 327 mm2 of steep overhang with air under it (max drop 2.0 mm at z=14 mm) while supports are off in the designer's profile - worth a look at the preview",
@@ -5339,7 +6795,7 @@
       "Washer"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "4",
@@ -5350,6 +6806,39 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 2,
+      "p1s": {
+        "model_time": "10h 31m 13s",
+        "total_time": "10h 37m 33s",
+        "layers": "200",
+        "density": "1.25",
+        "max_z": "40.00",
+        "used_mm": 95492.55,
+        "used_cm3": 229.69,
+        "used_g": 287.11
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
@@ -5377,7 +6866,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -5409,7 +6898,7 @@
     "capped_from": 6,
     "margin": 5.0,
     "filaments": [
-      "PETG P1S Tuned"
+      "PETG A1 Tuned"
     ],
     "advisories": [],
     "metrics": {
@@ -5447,7 +6936,7 @@
       "Pen Ball bottom"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -5458,13 +6947,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 4,
+      "p1s": {
+        "model_time": "11h 30m 36s",
+        "total_time": "11h 36m 55s",
+        "layers": "146",
+        "density": "1.25",
+        "max_z": "29.40",
+        "used_mm": 86943.88,
+        "used_cm3": 209.12,
+        "used_g": 261.41
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "card-holder-4row",
     "id": 46,
     "title": "Playing Card Holder (4 rows)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/46 Playing Card Holder (4 rows) - PLA x4.3mf",
+    "path": "../../Full Plates/46 Playing Card Holder (4 rows) - PLA x4.3mf",
     "layout": "single",
     "file": "46 Playing Card Holder (4 rows) - PLA x4.3mf",
     "material": "PLA",
@@ -5485,7 +7007,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -5494,7 +7016,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -5517,7 +7039,7 @@
       "Playing Card Holder (4 rows)"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -5528,13 +7050,46 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 4,
+      "p1s": {
+        "model_time": "7h 19m 2s",
+        "total_time": "7h 25m 17s",
+        "layers": "377",
+        "density": "1.26",
+        "max_z": "75.40",
+        "used_mm": 99803.9,
+        "used_cm3": 240.06,
+        "used_g": 302.47
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "boot-jack",
     "id": 47,
     "title": "Shoe Lifter / Boot Jack",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/47 Shoe Lifter - Boot Jack - PLA x2.3mf",
+    "path": "../../Full Plates/47 Shoe Lifter - Boot Jack - PLA x2.3mf",
     "layout": "single",
     "file": "47 Shoe Lifter - Boot Jack - PLA x2.3mf",
     "material": "PLA",
@@ -5555,7 +7110,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {
@@ -5631,7 +7186,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [
       "SchuhauszieherV2.stl_A_A: 11300 mm2 of steep overhang with air under it (max drop 92.0 mm at z=92 mm) while supports are off in the designer's profile - worth a look at the preview"
@@ -5656,7 +7211,7 @@
       "SchuhauszieherV2.stl_A_A"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -5667,13 +7222,46 @@
       "brim": "auto_brim",
       "top": "4",
       "bottom": "4"
+    },
+    "a1": {
+      "p1s_count": 2,
+      "p1s": {
+        "model_time": "7h 28m 15s",
+        "total_time": "7h 34m 35s",
+        "layers": "551",
+        "density": "1.26",
+        "max_z": "110.20",
+        "used_mm": 93155.29,
+        "used_cm3": 224.06,
+        "used_g": 282.32
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   },
   {
     "slug": "pencil-grip",
     "id": 48,
     "title": "Adaptive Pencil Grip",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/48 Adaptive Pencil Grip - PLA x7.3mf",
+    "path": "../../Full Plates/48 Adaptive Pencil Grip - PLA x7.3mf",
     "layout": "single",
     "file": "48 Adaptive Pencil Grip - PLA x7.3mf",
     "material": "PLA",
@@ -5694,7 +7282,7 @@
     },
     "gap": 5.0,
     "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
+      "target_preset": "0.20mm Standard @BBL A1",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
       "from_reference": {},
@@ -5703,7 +7291,7 @@
       "overrides": {}
     },
     "filaments": [
-      "Bambu PLA Basic @BBL X1C"
+      "Bambu PLA Basic @BBL A1"
     ],
     "advisories": [],
     "metrics": {
@@ -5726,7 +7314,7 @@
       "Adaptive Pencil Grip"
     ],
     "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
+      "preset": "0.20mm Standard @BBL A1",
       "layer": "0.2",
       "first_layer": "0.2",
       "walls": "2",
@@ -5737,6 +7325,39 @@
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"
+    },
+    "a1": {
+      "p1s_count": 7,
+      "p1s": {
+        "model_time": "3h 46m 59s",
+        "total_time": "3h 53m 14s",
+        "layers": "125",
+        "density": "1.26",
+        "max_z": "25.00",
+        "used_mm": 47188.06,
+        "used_cm3": 113.5,
+        "used_g": 143.01
+      },
+      "trims": [],
+      "brims": [],
+      "process": {
+        "default_acceleration": [
+          "10000",
+          "6000"
+        ],
+        "elefant_foot_compensation": [
+          "0.15",
+          "0.075"
+        ],
+        "smooth_coefficient": [
+          "150",
+          "80"
+        ],
+        "travel_speed": [
+          "500",
+          "700"
+        ]
+      }
     }
   }
 ]

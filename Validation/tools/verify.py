@@ -35,6 +35,8 @@ def hull_hits_exclusion(points, clearance=None):
     """
     clearance = pack.EXCLUDE_CLEARANCE if clearance is None else clearance
     ex = pack.EXCLUDE_RAW
+    if ex is None:
+        return False
     rect = [(ex[0] - clearance, ex[1] - clearance), (ex[2] + clearance, ex[1] - clearance),
             (ex[2] + clearance, ex[3] + clearance), (ex[0] - clearance, ex[3] + clearance)]
     hull = convex_hull(points)
@@ -118,6 +120,8 @@ def clearances(placements, limit=10.0):
         edge = min(edge, pts[:, 0].min(), pts[:, 1].min(),
                    pack.BED - pts[:, 0].max(), pack.BED - pts[:, 1].max())
         hull = np.array(convex_hull(pts), dtype=float)
+        if ex is None:
+            hull = []
         # hull edges sampled every 0.1 mm: the point nearest the corner can sit mid-edge
         for a, b in zip(hull, np.roll(hull, -1, axis=0)):
             s = a + (b - a) * np.linspace(0, 1, max(2, int(np.hypot(*(b - a)) / 0.1) + 1))[:, None]
@@ -141,7 +145,8 @@ def clearances(placements, limit=10.0):
                 break
         if gap is not None:
             break
-    return dict(gap=gap, edge=round(float(edge), 1), corner=round(corner, 1))
+    return dict(gap=gap, edge=round(float(edge), 1),
+                corner=None if ex is None else round(corner, 1))
 
 
 def preview(placements, path, plate=1, size=760):
@@ -154,7 +159,8 @@ def preview(placements, path, plate=1, size=760):
         d.line([px(g), 0, px(g), n], fill=(42, 46, 52))
         d.line([0, px(g), n, px(g)], fill=(42, 46, 52))
     ex = pack.EXCLUDE
-    d.rectangle([px(ex[0]), n - px(ex[3]), px(ex[2]), n - px(ex[1])], fill=(74, 40, 40))
+    if ex:
+        d.rectangle([px(ex[0]), n - px(ex[3]), px(ex[2]), n - px(ex[1])], fill=(74, 40, 40))
     colors = [(96, 190, 128), (110, 160, 224), (232, 172, 88), (206, 122, 192)]
     names = {}
     for pl in placements:

@@ -1,0 +1,61 @@
+{
+  "process": {
+    "default_acceleration": [
+      "10000",
+      "6000"
+    ],
+    "elefant_foot_compensation": [
+      "0.15",
+      "0.075"
+    ],
+    "smooth_coefficient": [
+      "150",
+      "80"
+    ],
+    "travel_speed": [
+      "500",
+      "700"
+    ]
+  },
+  "brims": {
+    "Base_Can_Opener.stl": {
+      "device": 6,
+      "height": 24.0,
+      "min_width": 8.0,
+      "slenderness": 3.0,
+      "already": false
+    },
+    "Arthritis Toothbrush Grip": {
+      "device": 19,
+      "height": 100.0,
+      "min_width": 39.3,
+      "slenderness": 2.54,
+      "already": false
+    },
+    "Squeezer base (Seigaiha pattern)": {
+      "device": 32,
+      "height": 68.0,
+      "min_width": 40.0,
+      "slenderness": 1.7,
+      "already": false
+    },
+    "Cane holder (textured clamp)": {
+      "device": 40,
+      "height": 85.0,
+      "min_width": 36.0,
+      "slenderness": 2.36,
+      "already": false
+    },
+    "Clamp screw (easy grip)": {
+      "device": 40,
+      "height": 74.3,
+      "min_width": 20.8,
+      "slenderness": 3.57,
+      "already": true
+    }
+  },
+  "filaments": {
+    "Bambu PLA Basic @BBL X1C": "Bambu PLA Basic @BBL A1",
+    "PETG P1S Tuned": "PETG A1 Tuned"
+  }
+}

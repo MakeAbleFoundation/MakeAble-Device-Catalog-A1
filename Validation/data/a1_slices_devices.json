@@ -1,0 +1,1111 @@
+{
+  "bag-carrier-medium": {
+    "id": 1,
+    "slug": "bag-carrier-medium",
+    "count_p1s": 4,
+    "trims": [],
+    "ok": true,
+    "count": 4,
+    "total_time": "3h 22m 9s",
+    "used_g": 125.41,
+    "used_cm3": 99.53,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "01 Bag Carrier (Medium) - PLA x4.3mf"
+  },
+  "bag-carrier-small": {
+    "id": 2,
+    "slug": "bag-carrier-small",
+    "count_p1s": 4,
+    "trims": [],
+    "ok": true,
+    "count": 4,
+    "total_time": "3h 1m 10s",
+    "used_g": 112.47,
+    "used_cm3": 89.26,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "02 Bag Carrier (Small) - PLA x4.3mf"
+  },
+  "bag-carrier-large": {
+    "id": 3,
+    "slug": "bag-carrier-large",
+    "count_p1s": 2,
+    "trims": [],
+    "ok": true,
+    "count": 2,
+    "total_time": "2h 2m 54s",
+    "used_g": 78.94,
+    "used_cm3": 62.65,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "03 Bag Carrier (Large) - PLA x2.3mf"
+  },
+  "bottle-cap-opener": {
+    "id": 4,
+    "slug": "bottle-cap-opener",
+    "count_p1s": 8,
+    "trims": [],
+    "ok": true,
+    "count": 8,
+    "total_time": "7h 32m 6s",
+    "used_g": 164.25,
+    "used_cm3": 131.4,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "04 Bottle Cap Opener - PETG x8.3mf"
+  },
+  "bottle-opener-wide-handle": {
+    "id": 5,
+    "slug": "bottle-opener-wide-handle",
+    "count_p1s": 4,
+    "trims": [],
+    "ok": true,
+    "count": 4,
+    "total_time": "7h 9m 44s",
+    "used_g": 139.59,
+    "used_cm3": 111.67,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "05 Bottle Opener (three sizes, wide handle) - PETG x4.3mf"
+  },
+  "can-opener": {
+    "id": 6,
+    "slug": "can-opener",
+    "count_p1s": 30,
+    "trims": [],
+    "ok": true,
+    "count": 30,
+    "total_time": "13h 11m 39s",
+    "used_g": 366.09,
+    "used_cm3": 290.55,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "06 Assistive Can Tab Opener - PLA x30.3mf"
+  },
+  "jar-opener": {
+    "id": 7,
+    "slug": "jar-opener",
+    "count_p1s": 2,
+    "trims": [],
+    "ok": true,
+    "count": 2,
+    "total_time": "6h 26m 19s",
+    "used_g": 145.53,
+    "used_cm3": 116.43,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "07 OPENSESAME3000 Jar Tool - PETG x2.3mf"
+  },
+  "keywings": {
+    "id": 8,
+    "slug": "keywings",
+    "count_p1s": 76,
+    "trims": [
+      [
+        76,
+        74,
+        "14h 22m 29s"
+      ],
+      [
+        74,
+        73,
+        "14h 0m 33s"
+      ]
+    ],
+    "ok": true,
+    "count": 73,
+    "total_time": "13h 50m 0s",
+    "used_g": 225.31,
+    "used_cm3": 180.25,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "08 KeyWings - PETG x73.3mf"
+  },
+  "drag-writer": {
+    "id": 9,
+    "slug": "drag-writer",
+    "count_p1s": 2,
+    "trims": [],
+    "ok": true,
+    "count": 2,
+    "total_time": "4h 5m 12s",
+    "used_g": 146.47,
+    "used_cm3": 116.25,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "09 DRAG Assistive Writer (kit of 3) - PLA x2.3mf"
+  },
+  "blister-pack-opener": {
+    "id": 10,
+    "slug": "blister-pack-opener",
+    "count_p1s": 8,
+    "trims": [],
+    "ok": true,
+    "count": 8,
+    "total_time": "8h 54m 16s",
+    "used_g": 234.72,
+    "used_cm3": 187.78,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "10 Blister Pack Opener - PETG x8.3mf"
+  },
+  "pill-popper": {
+    "id": 11,
+    "slug": "pill-popper",
+    "count_p1s": 21,
+    "trims": [],
+    "ok": true,
+    "count": 21,
+    "total_time": "8h 44m 54s",
+    "used_g": 164.18,
+    "used_cm3": 131.34,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "11 Pill Popper - PETG x21.3mf"
+  },
+  "clothes-button-hook": {
+    "id": 12,
+    "slug": "clothes-button-hook",
+    "count_p1s": 9,
+    "trims": [],
+    "ok": true,
+    "count": 9,
+    "total_time": "1h 48m 41s",
+    "used_g": 37.55,
+    "used_cm3": 30.04,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "12 Clothes Button & Zipper Hook (hook, PETG) - PETG x9.3mf"
+  },
+  "clothes-button-handles": {
+    "id": 13,
+    "slug": "clothes-button-handles",
+    "count_p1s": 8,
+    "trims": [],
+    "ok": true,
+    "count": 8,
+    "total_time": "4h 34m 10s",
+    "used_g": 98.69,
+    "used_cm3": 78.33,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "13 Clothes Button & Zipper Hook (handle kit, PLA) - PLA x8.3mf"
+  },
+  "flipper-nail-clipper-large": {
+    "id": 14,
+    "slug": "flipper-nail-clipper-large",
+    "count_p1s": 3,
+    "trims": [],
+    "ok": true,
+    "count": 3,
+    "total_time": "2h 37m 3s",
+    "used_g": 90.85,
+    "used_cm3": 72.1,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "14 Flipper Nail Clipper (large clippers) - PLA x3.3mf"
+  },
+  "flipper-clipper-v2": {
+    "id": 15,
+    "slug": "flipper-clipper-v2",
+    "count_p1s": 4,
+    "trims": [],
+    "ok": true,
+    "count": 4,
+    "total_time": "4h 53m 56s",
+    "used_g": 184.03,
+    "used_cm3": 146.06,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "15 Flipper the Clipper v2 (Thingiverse) - PLA x4.3mf"
+  },
+  "eating-utensil-aid": {
+    "id": 16,
+    "slug": "eating-utensil-aid",
+    "count_p1s": 5,
+    "trims": [],
+    "ok": true,
+    "count": 5,
+    "total_time": "11h 39m 25s",
+    "used_g": 231.22,
+    "used_cm3": 183.51,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "16 Eating Utensil Aid (kit) - PLA x5.3mf"
+  },
+  "shoe-horn": {
+    "id": 17,
+    "slug": "shoe-horn",
+    "count_p1s": 12,
+    "trims": [],
+    "ok": true,
+    "count": 12,
+    "total_time": "12h 22m 53s",
+    "used_g": 293.41,
+    "used_cm3": 234.72,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "17 Quick-Slip Shoe Horn - PETG x12.3mf"
+  },
+  "tube-opener": {
+    "id": 18,
+    "slug": "tube-opener",
+    "count_p1s": 12,
+    "trims": [],
+    "ok": true,
+    "count": 12,
+    "total_time": "7h 43m 3s",
+    "used_g": 202.77,
+    "used_cm3": 160.93,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "18 Tuber Opener - PLA x12.3mf"
+  },
+  "toothbrush-grip": {
+    "id": 19,
+    "slug": "toothbrush-grip",
+    "count_p1s": 19,
+    "trims": [
+      [
+        19,
+        17,
+        "15h 13m 25s"
+      ]
+    ],
+    "ok": true,
+    "count": 17,
+    "total_time": "13h 40m 56s",
+    "used_g": 538.32,
+    "used_cm3": 427.24,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "19 Arthritis Toothbrush Grip - PLA x17.3mf"
+  },
+  "book-holder": {
+    "id": 20,
+    "slug": "book-holder",
+    "count_p1s": 23,
+    "trims": [],
+    "ok": true,
+    "count": 23,
+    "total_time": "9h 5m 20s",
+    "used_g": 228.08,
+    "used_cm3": 181.02,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "20 One-Handed Page Holder - PLA x23.3mf"
+  },
+  "phone-magnifier-stand": {
+    "id": 21,
+    "slug": "phone-magnifier-stand",
+    "count_p1s": 12,
+    "trims": [],
+    "ok": true,
+    "count": 12,
+    "total_time": "11h 20m 27s",
+    "used_g": 312.21,
+    "used_cm3": 247.79,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "21 Smartphone Magnification Stand - PLA x12.3mf"
+  },
+  "eda-pliers-bd20": {
+    "id": 22,
+    "slug": "eda-pliers-bd20",
+    "count_p1s": 2,
+    "trims": [],
+    "ok": true,
+    "count": 2,
+    "total_time": "1h 5m 33s",
+    "used_g": 28.99,
+    "used_cm3": 23.01,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "22 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf"
+  },
+  "eda-pliers-bd22": {
+    "id": 23,
+    "slug": "eda-pliers-bd22",
+    "count_p1s": 2,
+    "trims": [],
+    "ok": true,
+    "count": 2,
+    "total_time": "1h 5m 22s",
+    "used_g": 28.75,
+    "used_cm3": 22.82,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "23 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf"
+  },
+  "eda-pliers-bd24": {
+    "id": 24,
+    "slug": "eda-pliers-bd24",
+    "count_p1s": 2,
+    "trims": [],
+    "ok": true,
+    "count": 2,
+    "total_time": "1h 5m 0s",
+    "used_g": 28.58,
+    "used_cm3": 22.68,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "24 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf"
+  },
+  "eda-pliers-bd25": {
+    "id": 25,
+    "slug": "eda-pliers-bd25",
+    "count_p1s": 2,
+    "trims": [],
+    "ok": true,
+    "count": 2,
+    "total_time": "1h 2m 55s",
+    "used_g": 27.93,
+    "used_cm3": 22.17,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "25 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf"
+  },
+  "eda-eyepiece-03a": {
+    "id": 26,
+    "slug": "eda-eyepiece-03a",
+    "count_p1s": 35,
+    "trims": [],
+    "ok": true,
+    "count": 35,
+    "total_time": "5h 29m 50s",
+    "used_g": 117.76,
+    "used_cm3": 93.46,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "26 Eye Drop Assist eyepiece 03 A - PLA x35.3mf"
+  },
+  "eda-eyepiece-03b": {
+    "id": 27,
+    "slug": "eda-eyepiece-03b",
+    "count_p1s": 35,
+    "trims": [],
+    "ok": true,
+    "count": 35,
+    "total_time": "5h 8m 5s",
+    "used_g": 113.43,
+    "used_cm3": 90.02,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "27 Eye Drop Assist eyepiece 03 B - PLA x35.3mf"
+  },
+  "eda-eyepiece-03c": {
+    "id": 28,
+    "slug": "eda-eyepiece-03c",
+    "count_p1s": 35,
+    "trims": [],
+    "ok": true,
+    "count": 35,
+    "total_time": "5h 29m 31s",
+    "used_g": 122.55,
+    "used_cm3": 97.26,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "28 Eye Drop Assist eyepiece 03 C - PLA x35.3mf"
+  },
+  "eda-eyepiece-04d": {
+    "id": 29,
+    "slug": "eda-eyepiece-04d",
+    "count_p1s": 35,
+    "trims": [],
+    "ok": true,
+    "count": 35,
+    "total_time": "6h 9m 22s",
+    "used_g": 136.74,
+    "used_cm3": 108.52,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "29 Eye Drop Assist eyepiece 04 D - PLA x35.3mf"
+  },
+  "eda-eyepiece-04e": {
+    "id": 30,
+    "slug": "eda-eyepiece-04e",
+    "count_p1s": 35,
+    "trims": [],
+    "ok": true,
+    "count": 35,
+    "total_time": "5h 49m 24s",
+    "used_g": 130.93,
+    "used_cm3": 103.92,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "30 Eye Drop Assist eyepiece 04 E - PLA x35.3mf"
+  },
+  "bedside-box": {
+    "id": 31,
+    "slug": "bedside-box",
+    "count_p1s": 1,
+    "trims": [],
+    "ok": true,
+    "count": 1,
+    "total_time": "4h 48m 41s",
+    "used_g": 228.97,
+    "used_cm3": 181.72,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "31 Bedside Hook-On Storage Box (kit) - PLA x1.3mf"
+  },
+  "toothpaste-squeezer-gear": {
+    "id": 32,
+    "slug": "toothpaste-squeezer-gear",
+    "count_p1s": 8,
+    "trims": [
+      [
+        8,
+        7,
+        "15h 52m 17s"
+      ]
+    ],
+    "ok": true,
+    "count": 7,
+    "total_time": "13h 54m 27s",
+    "used_g": 284.17,
+    "used_cm3": 225.53,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "32 Toothpaste Squeezer, external gear (kit) - PLA x7.3mf"
+  },
+  "chopstick-helper": {
+    "id": 33,
+    "slug": "chopstick-helper",
+    "count_p1s": 48,
+    "trims": [],
+    "ok": true,
+    "count": 48,
+    "total_time": "6h 52m 21s",
+    "used_g": 149.29,
+    "used_cm3": 118.48,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "33 Chopstick Helper (small) - PLA x48.3mf"
+  },
+  "soup-can-opener": {
+    "id": 34,
+    "slug": "soup-can-opener",
+    "count_p1s": 12,
+    "trims": [],
+    "ok": true,
+    "count": 12,
+    "total_time": "6h 29m 52s",
+    "used_g": 142.24,
+    "used_cm3": 113.79,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "34 Soup Can Opener (no magnets) - PETG x12.3mf"
+  },
+  "jar-opener-vacuum": {
+    "id": 35,
+    "slug": "jar-opener-vacuum",
+    "count_p1s": 8,
+    "trims": [],
+    "ok": true,
+    "count": 8,
+    "total_time": "7h 13m 16s",
+    "used_g": 161.45,
+    "used_cm3": 128.13,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "35 Jar Opener - Vacuum Releaser - PLA x8.3mf"
+  },
+  "younger-grip": {
+    "id": 36,
+    "slug": "younger-grip",
+    "count_p1s": 8,
+    "trims": [],
+    "ok": true,
+    "count": 8,
+    "total_time": "10h 26m 54s",
+    "used_g": 257.3,
+    "used_cm3": 204.21,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "36 Younger Grip Lid Wrench (no magnets) - PLA x8.3mf"
+  },
+  "plug-puller": {
+    "id": 37,
+    "slug": "plug-puller",
+    "count_p1s": 9,
+    "trims": [],
+    "ok": true,
+    "count": 9,
+    "total_time": "3h 17m 48s",
+    "used_g": 84.24,
+    "used_cm3": 66.86,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "37 Plug Puller (WATAP) - PLA x9.3mf"
+  },
+  "pinky-saver": {
+    "id": 38,
+    "slug": "pinky-saver",
+    "count_p1s": 18,
+    "trims": [],
+    "ok": true,
+    "count": 18,
+    "total_time": "5h 40m 56s",
+    "used_g": 159.09,
+    "used_cm3": 126.26,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "38 Pinky Saver 3 & Phone Stand - PLA x18.3mf"
+  },
+  "cup-holder": {
+    "id": 39,
+    "slug": "cup-holder",
+    "count_p1s": 1,
+    "trims": [],
+    "ok": true,
+    "count": 1,
+    "total_time": "5h 52m 30s",
+    "used_g": 201.85,
+    "used_cm3": 160.2,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "39 Universal Cup Holder (kit) - PLA x1.3mf"
+  },
+  "cane-holder": {
+    "id": 40,
+    "slug": "cane-holder",
+    "count_p1s": 6,
+    "trims": [
+      [
+        6,
+        5,
+        "14h 35m 28s"
+      ]
+    ],
+    "ok": true,
+    "count": 5,
+    "total_time": "12h 12m 18s",
+    "used_g": 345.62,
+    "used_cm3": 274.3,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "40 Adjustable Cane Holder (kit) - PLA x5.3mf"
+  },
+  "hand-press-light": {
+    "id": 41,
+    "slug": "hand-press-light",
+    "count_p1s": 5,
+    "trims": [],
+    "ok": true,
+    "count": 5,
+    "total_time": "6h 58m 2s",
+    "used_g": 192.31,
+    "used_cm3": 153.85,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "41 Hand Press - Grip Strengthener (Light) - PETG x5.3mf"
+  },
+  "hand-press-medium": {
+    "id": 42,
+    "slug": "hand-press-medium",
+    "count_p1s": 5,
+    "trims": [],
+    "ok": true,
+    "count": 5,
+    "total_time": "7h 49m 16s",
+    "used_g": 218.82,
+    "used_cm3": 175.06,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "42 Hand Press - Grip Strengthener (Medium) - PETG x5.3mf"
+  },
+  "hand-press-hard": {
+    "id": 43,
+    "slug": "hand-press-hard",
+    "count_p1s": 5,
+    "trims": [],
+    "ok": true,
+    "count": 5,
+    "total_time": "8h 29m 26s",
+    "used_g": 241.4,
+    "used_cm3": 193.12,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "43 Hand Press - Grip Strengthener (Hard) - PETG x5.3mf"
+  },
+  "coffee-gimbal": {
+    "id": 44,
+    "slug": "coffee-gimbal",
+    "count_p1s": 2,
+    "trims": [],
+    "ok": true,
+    "count": 2,
+    "total_time": "11h 4m 53s",
+    "used_g": 284.11,
+    "used_cm3": 227.29,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "44 Universal Travel Coffee Gimbal (kit) - PETG x2.3mf"
+  },
+  "pen-ball": {
+    "id": 45,
+    "slug": "pen-ball",
+    "count_p1s": 4,
+    "trims": [],
+    "ok": true,
+    "count": 4,
+    "total_time": "12h 18m 32s",
+    "used_g": 258.68,
+    "used_cm3": 206.94,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "45 Pen Ball (kit) - PETG x4.3mf"
+  },
+  "card-holder-4row": {
+    "id": 46,
+    "slug": "card-holder-4row",
+    "count_p1s": 4,
+    "trims": [],
+    "ok": true,
+    "count": 4,
+    "total_time": "8h 18m 6s",
+    "used_g": 302.51,
+    "used_cm3": 240.08,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "46 Playing Card Holder (4 rows) - PLA x4.3mf"
+  },
+  "boot-jack": {
+    "id": 47,
+    "slug": "boot-jack",
+    "count_p1s": 2,
+    "trims": [],
+    "ok": true,
+    "count": 2,
+    "total_time": "8h 41m 7s",
+    "used_g": 282.31,
+    "used_cm3": 224.05,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "47 Shoe Lifter - Boot Jack - PLA x2.3mf"
+  },
+  "pencil-grip": {
+    "id": 48,
+    "slug": "pencil-grip",
+    "count_p1s": 7,
+    "trims": [],
+    "ok": true,
+    "count": 7,
+    "total_time": "4h 23m 14s",
+    "used_g": 143.04,
+    "used_cm3": 113.52,
+    "warnings": [],
+    "conflict": false,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "file": "48 Adaptive Pencil Grip - PLA x7.3mf"
+  }
+}

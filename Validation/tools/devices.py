@@ -7,14 +7,18 @@ stored inside the local 3mf, so `ref` below is the exact profile that was linked
 import os
 
 M = "/Users/justinrui/Desktop/M/"
-# the second batch lives next to the repo, in a folder that is kept out of git
+# the second batch lives next to the repo, in a folder that is kept out of git; this A1
+# edition has no copy of its own, so it reads the P1S catalogue's when that sits beside it
 REPO = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 N = os.path.join(REPO, "New Devices") + "/"
+if not os.path.isdir(N):
+    _p1s = os.path.join(os.path.dirname(REPO), "MakeAble-Device-Catalog", "New Devices") + "/"
+    N = _p1s if os.path.isdir(_p1s) else N
 
 MAX_HOURS = 14.0        # no plate may run longer than this (Orca's estimate)
 
-PLA = "Bambu PLA Basic @BBL X1C"
-PETG = "PETG P1S Tuned"
+PLA = "Bambu PLA Basic @BBL A1"
+PETG = "PETG A1 Tuned"     # Validation/presets/PETG A1 Tuned.json
 
 DEVICES = [
  dict(id=1, slug="bag-carrier-medium", title="Bag Carrier (Medium)", designer="MakeAble",
@@ -39,7 +43,7 @@ DEVICES = [
       ref=M+"Bottle Opener (PETG)/Bottle+Cap+Opener.3mf", names=["Bottle Cap Opener"],
       material="PETG",
       notes=["Designer's profile: 0.15 mm first layer, 5 walls, 50% infill, slower walls "
-             "(was an A1 mini profile, rebased onto the P1S)."]),
+             "(was an A1 mini profile, rebased onto the A1)."]),
  dict(id=5, slug="bottle-opener-wide-handle",
       title="Bottle Opener (three sizes, wide handle)", designer="val",
       link="https://makerworld.com/en/models/712423-bottle-opener-three-sizes-wider-handle#profileId-642822",
@@ -110,7 +114,7 @@ DEVICES = [
       stl=[M+"Nail Clipper Holder (PLA)/Nailcutter_v2.stl"], material="PLA",
       overrides={"sparse_infill_density": "80%", "skin_infill_density": "80%",
                  "skeleton_infill_density": "80%"},
-      notes=["No designer 3mf exists, so this is the P1S 0.20 mm Standard profile plus "
+      notes=["No designer 3mf exists, so this is the A1 0.20 mm Standard profile plus "
              "the designer's one stated requirement: 80% infill."]),
  dict(id=16, slug="eating-utensil-aid", title="Eating Utensil Aid (kit)",
       designer="Keebitzenny",
@@ -123,7 +127,7 @@ DEVICES = [
       link="https://makerworld.com/en/models/1024414-quick-slip-shoe-horn#profileId-1006338",
       ref=M+"Shoe Horn (PETG)/Shoe+Horn+3MF.3mf", names=["Shoe Horn.stl"], material="PETG",
       notes=["Designer: PETG or stronger is required.",
-             "Profile came from an H2S; speeds and accelerations rebased to the P1S."]),
+             "Profile came from an H2S; speeds and accelerations rebased to the A1."]),
  dict(id=18, slug="tube-opener", title="Tuber Opener", designer="MakeAble",
       link="https://makerworld.com/en/models/1737344-tuber-opener#profileId-1845987",
       ref=M+"Tube Opener/Tube_Opener.3mf", indices=[0], material="PLA"),
@@ -132,7 +136,7 @@ DEVICES = [
       link="https://www.myminifactory.com/object/3d-print-arthritis-toothbrush-grip-77601",
       stl=[M+"Toothbrush Grip (PLA)/6066726cbda58_arthritis-toothbrush-grip/toofbrushgrip.stl"],
       material="PLA", cap=19,
-      notes=["No designer profile exists; P1S 0.20 mm Standard used.",
+      notes=["No designer profile exists; A1 0.20 mm Standard used.",
              "Heavy part: check the reported filament weight before starting a full plate."]),
  dict(id=20, slug="book-holder", title="One-Handed Page Holder", designer="MakeAble",
       link="https://makerworld.com/en/models/1740474-one-handed-page-holder#profileId-1849552",
@@ -161,7 +165,7 @@ for i, (slug, title, fn) in enumerate(EYE_DROP, start=22):
         id=i, slug=slug, title=title, designer="jhw (Printables)",
         link="https://www.printables.com/model/1031668-eye-drop-assist-for-bottles",
         stl=[M+"Eye Drop Assist (PLA)/"+fn], material="PLA",
-        notes=["No designer 3mf; P1S 0.20 mm Standard used. The Printables pages are "
+        notes=["No designer 3mf; A1 0.20 mm Standard used. The Printables pages are "
                "behind a bot check, so the designer's own settings are unverified."]))
 
 MW_STD = "MakerWorld Standard Digital File License"
@@ -177,7 +181,7 @@ DEVICES += [
       notes=["One kit = the storage box + two hooks, as on the designer's plate.",
              "The box is 240 mm long and lies diagonally across the bed. The packer cannot fit "
              "it inside the usual 5 mm margin, so the designer's own arrangement is used, "
-             "centred (their X1 has the same bed and excluded corner as the P1S).",
+             "centred (their X1 has the same 256 mm bed as the A1).",
              "The designer's variable layer height on the box is kept."]),
  dict(id=32, slug="toothpaste-squeezer-gear", title="Toothpaste Squeezer, external gear (kit)",
       designer="Tazio design",
@@ -212,7 +216,7 @@ DEVICES += [
              "slicer refuses it (the designer's own file fails the same way in OrcaSlicer). "
              "Those four vertices were moved up onto the base; nothing else in the mesh "
              "changed.",
-             "Profile was an A1 mini 0.24 mm Draft profile; rebased onto the P1S 0.24 mm Draft.",
+             "Profile was an A1 mini 0.24 mm Draft profile; rebased onto the A1 0.24 mm Draft.",
              "The page text suggests 0.2 mm, 6 walls, 60% infill; the downloaded profile uses "
              "0.24 mm, 2 walls, 10% gyroid. The profile wins, as agreed."]),
  # a plate arranged by hand in Bambu Studio: delivered byte for byte (build.supplied_device)
@@ -224,7 +228,7 @@ DEVICES += [
       notes=["Replaces the earlier glue-in-magnets plate with the designer's 'NO MAGNETS' "
              "profile: the magnet cavities are filled in, so there is nothing to glue.",
              "The designer's single-colour plate, 8 copies; their profile (0.2 mm, 3 walls, "
-             "10% gyroid) on the P1S presets.",
+             "10% gyroid) on the A1 presets.",
              "Their height-range layer settings are kept: 0.12 mm layers over the finger-well "
              "overhang, 0.24 mm for the bridge above it, 0.2 mm elsewhere."]),
  dict(id=37, slug="plug-puller", title="Plug Puller (WATAP)", designer="WATAP_3D",
@@ -240,7 +244,7 @@ DEVICES += [
       supplied=True, material="PLA", license=MW_STD,
       notes=["Replaces the earlier Pinky Saver & Phone Stand (standard holes, model 941286) "
              "with the designer's newer one-piece Pinky Saver 3.",
-             "The designer's profile (0.2 mm, 2 walls, 15% infill) on the P1S presets.",
+             "The designer's profile (0.2 mm, 2 walls, 15% infill) on the A1 presets.",
              "The supplied file is named x19 but holds 18 copies; Orca and Bambu's own plate "
              "thumbnail agree."]),
  dict(id=39, slug="cup-holder", title="Universal Cup Holder (kit)", designer="RED_eleven",
@@ -269,7 +273,7 @@ DEVICES += [
              "textured clamp protector.",
              "Designer's stated settings: 60% infill, supports touching the build plate at "
              "about 10% density (support line spacing 4 mm), a brim for the screw. Everything "
-             "else is the P1S 0.20 mm Standard."]),
+             "else is the A1 0.20 mm Standard."]),
 ] + [
  dict(id=41 + i, slug=f"hand-press-{lvl.lower()}",
       title=f"Hand Press / Grip Strengthener ({lvl})", designer="Sakul",
@@ -315,7 +319,7 @@ DEVICES += [
       stl=[N+"Full Size Playing Card Holder - 2863434/files/holder-4row.stl"], material="PLA",
       license="CC BY",
       notes=["The four-row holder (holder-4row.stl and holder-4rows.stl are the same shape).",
-             "Designer: prints fine without supports. P1S 0.20 mm Standard."]),
+             "Designer: prints fine without supports. A1 0.20 mm Standard."]),
  dict(id=47, slug="boot-jack", title="Shoe Lifter / Boot Jack", designer="Chio97",
       link="https://makerworld.com/en/models/1040127-shoe-lifter-boot-jack#profileId-1024783",
       ref=N+"SchuhauszieherV2 (1).3mf", names=["SchuhauszieherV2.stl_A_A"], material="PLA",
@@ -326,7 +330,7 @@ DEVICES += [
       link="https://www.printables.com/model/520212-adaptive-pencil-grip",
       stl=[N+"adaptive-pencil-grip-model_files/Adaptive writer.stl"], material="PLA",
       license="CC BY-NC-SA 4.0",
-      notes=["Designer: default settings, no supports. P1S 0.20 mm Standard.",
+      notes=["Designer: default settings, no supports. A1 0.20 mm Standard.",
              "The pencil hole is just over 7 mm; the page's small test piece is left out."]),
 ]
 

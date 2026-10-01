@@ -1,0 +1,53 @@
+{
+    "type": "filament",
+    "name": "PETG A1 Tuned",
+    "from": "User",
+    "instantiation": "true",
+    "inherits": "Bambu PETG Basic @BBL A1",
+    "filament_settings_id": [
+        "PETG A1 Tuned"
+    ],
+    "version": "2.2.0.4",
+    "fan_max_speed": [
+        "65"
+    ],
+    "fan_min_speed": [
+        "20"
+    ],
+    "filament_max_volumetric_speed": [
+        "8"
+    ],
+    "filament_retract_before_wipe": [
+        "70%"
+    ],
+    "filament_retraction_length": [
+        "1.6"
+    ],
+    "filament_retraction_speed": [
+        "40"
+    ],
+    "filament_wipe_distance": [
+        "2"
+    ],
+    "filament_z_hop": [
+        "0.4"
+    ],
+    "filament_z_hop_types": [
+        "Normal Lift"
+    ],
+    "nozzle_temperature": [
+        "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
+    "textured_plate_temp": [
+        "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "65"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ]
+}

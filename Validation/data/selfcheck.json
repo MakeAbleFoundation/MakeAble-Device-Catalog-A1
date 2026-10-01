@@ -1,247 +1,218 @@
 {
-  "bag-carrier-medium": {
-    "problems": [],
-    "notes": []
-  },
-  "bag-carrier-small": {
-    "problems": [],
-    "notes": []
-  },
-  "bag-carrier-large": {
-    "problems": [],
-    "notes": []
-  },
-  "bottle-cap-opener": {
-    "problems": [],
-    "notes": []
-  },
-  "bottle-opener-wide-handle": {
-    "problems": [],
-    "notes": []
-  },
-  "can-opener": {
-    "problems": [],
-    "notes": []
-  },
-  "jar-opener": {
-    "problems": [],
-    "notes": []
-  },
-  "keywings": {
-    "problems": [],
-    "notes": []
-  },
-  "drag-writer": {
+  "Catalogue - one device per plate.3mf": {
     "problems": [],
     "notes": [
-      "geometry intact (74378 triangles)"
+      "bed-slinger brim added"
     ]
   },
-  "blister-pack-opener": {
+  "Catalogue 2 - one device per plate.3mf": {
     "problems": [],
     "notes": [
-      "prime tower setting left on as saved (one filament, none is printed)",
-      "supplied plate, byte-identical to the file handed over"
+      "bed-slinger brim added"
     ]
   },
-  "pill-popper": {
+  "Full Plates/01 Bag Carrier (Medium) - PLA x4.3mf": {
     "problems": [],
     "notes": []
   },
-  "clothes-button-hook": {
-    "problems": [],
-    "notes": [
-      "painted seam/support data preserved"
-    ]
-  },
-  "clothes-button-handles": {
+  "Full Plates/02 Bag Carrier (Small) - PLA x4.3mf": {
     "problems": [],
     "notes": []
   },
-  "flipper-nail-clipper-large": {
+  "Full Plates/03 Bag Carrier (Large) - PLA x2.3mf": {
     "problems": [],
     "notes": []
   },
-  "flipper-clipper-v2": {
-    "problems": [],
-    "notes": [
-      "geometry intact (9218 triangles)"
-    ]
-  },
-  "eating-utensil-aid": {
+  "Full Plates/04 Bottle Cap Opener - PETG x8.3mf": {
     "problems": [],
     "notes": []
   },
-  "shoe-horn": {
+  "Full Plates/05 Bottle Opener (three sizes, wide handle) - PETG x4.3mf": {
     "problems": [],
     "notes": []
   },
-  "tube-opener": {
+  "Full Plates/06 Assistive Can Tab Opener - PLA x30.3mf": {
+    "problems": [],
+    "notes": [
+      "bed-slinger brim added"
+    ]
+  },
+  "Full Plates/07 OPENSESAME3000 Jar Tool - PETG x2.3mf": {
     "problems": [],
     "notes": []
   },
-  "toothbrush-grip": {
+  "Full Plates/08 KeyWings - PETG x73.3mf": {
     "problems": [],
     "notes": [
-      "geometry intact (1200 triangles)"
+      "3 objects removed for the print-time cap"
     ]
   },
-  "book-holder": {
+  "Full Plates/09 DRAG Assistive Writer (kit of 3) - PLA x2.3mf": {
     "problems": [],
     "notes": []
   },
-  "phone-magnifier-stand": {
+  "Full Plates/10 Blister Pack Opener - PETG x8.3mf": {
     "problems": [],
     "notes": []
   },
-  "eda-pliers-bd20": {
-    "problems": [],
-    "notes": [
-      "geometry intact (19772 triangles)"
-    ]
-  },
-  "eda-pliers-bd22": {
-    "problems": [],
-    "notes": [
-      "geometry intact (19752 triangles)"
-    ]
-  },
-  "eda-pliers-bd24": {
-    "problems": [],
-    "notes": [
-      "geometry intact (19868 triangles)"
-    ]
-  },
-  "eda-pliers-bd25": {
-    "problems": [],
-    "notes": [
-      "geometry intact (18856 triangles)"
-    ]
-  },
-  "eda-eyepiece-03a": {
-    "problems": [],
-    "notes": [
-      "geometry intact (10404 triangles)"
-    ]
-  },
-  "eda-eyepiece-03b": {
-    "problems": [],
-    "notes": [
-      "geometry intact (8000 triangles)"
-    ]
-  },
-  "eda-eyepiece-03c": {
-    "problems": [],
-    "notes": [
-      "geometry intact (10174 triangles)"
-    ]
-  },
-  "eda-eyepiece-04d": {
-    "problems": [],
-    "notes": [
-      "geometry intact (11632 triangles)"
-    ]
-  },
-  "eda-eyepiece-04e": {
-    "problems": [],
-    "notes": [
-      "geometry intact (7988 triangles)"
-    ]
-  },
-  "bedside-box": {
+  "Full Plates/11 Pill Popper - PETG x21.3mf": {
     "problems": [],
     "notes": []
   },
-  "toothpaste-squeezer-gear": {
+  "Full Plates/12 Clothes Button & Zipper Hook (hook, PETG) - PETG x9.3mf": {
     "problems": [],
     "notes": []
   },
-  "chopstick-helper": {
+  "Full Plates/13 Clothes Button & Zipper Hook (handle kit, PLA) - PLA x8.3mf": {
     "problems": [],
     "notes": []
   },
-  "soup-can-opener": {
+  "Full Plates/14 Flipper Nail Clipper (large clippers) - PLA x3.3mf": {
     "problems": [],
     "notes": []
   },
-  "jar-opener-vacuum": {
+  "Full Plates/15 Flipper the Clipper v2 (Thingiverse) - PLA x4.3mf": {
     "problems": [],
     "notes": []
   },
-  "younger-grip": {
+  "Full Plates/16 Eating Utensil Aid (kit) - PLA x5.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/17 Quick-Slip Shoe Horn - PETG x12.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/18 Tuber Opener - PLA x12.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/19 Arthritis Toothbrush Grip - PLA x17.3mf": {
     "problems": [],
     "notes": [
-      "prime tower setting left on as saved (one filament, none is printed)",
-      "supplied plate, byte-identical to the file handed over",
-      "painted seam/support data preserved"
+      "2 objects removed for the print-time cap",
+      "bed-slinger brim added"
     ]
   },
-  "plug-puller": {
+  "Full Plates/20 One-Handed Page Holder - PLA x23.3mf": {
     "problems": [],
     "notes": []
   },
-  "pinky-saver": {
+  "Full Plates/21 Smartphone Magnification Stand - PLA x12.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/22 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/23 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/24 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/25 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/26 Eye Drop Assist eyepiece 03 A - PLA x35.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/27 Eye Drop Assist eyepiece 03 B - PLA x35.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/28 Eye Drop Assist eyepiece 03 C - PLA x35.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/29 Eye Drop Assist eyepiece 04 D - PLA x35.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/30 Eye Drop Assist eyepiece 04 E - PLA x35.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/31 Bedside Hook-On Storage Box (kit) - PLA x1.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/32 Toothpaste Squeezer, external gear (kit) - PLA x7.3mf": {
     "problems": [],
     "notes": [
-      "prime tower setting left on as saved (one filament, none is printed)",
-      "supplied plate, byte-identical to the file handed over"
+      "3 objects removed for the print-time cap",
+      "bed-slinger brim added"
     ]
   },
-  "cup-holder": {
+  "Full Plates/33 Chopstick Helper (small) - PLA x48.3mf": {
     "problems": [],
     "notes": []
   },
-  "cane-holder": {
+  "Full Plates/34 Soup Can Opener (no magnets) - PETG x12.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/35 Jar Opener - Vacuum Releaser - PLA x8.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/36 Younger Grip Lid Wrench (no magnets) - PLA x8.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/37 Plug Puller (WATAP) - PLA x9.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/38 Pinky Saver 3 & Phone Stand - PLA x18.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/39 Universal Cup Holder (kit) - PLA x1.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/40 Adjustable Cane Holder (kit) - PLA x5.3mf": {
     "problems": [],
     "notes": [
-      "geometry intact (23992 triangles)"
+      "3 objects removed for the print-time cap",
+      "bed-slinger brim added"
     ]
   },
-  "hand-press-light": {
+  "Full Plates/41 Hand Press - Grip Strengthener (Light) - PETG x5.3mf": {
     "problems": [],
     "notes": []
   },
-  "hand-press-medium": {
+  "Full Plates/42 Hand Press - Grip Strengthener (Medium) - PETG x5.3mf": {
     "problems": [],
     "notes": []
   },
-  "hand-press-hard": {
+  "Full Plates/43 Hand Press - Grip Strengthener (Hard) - PETG x5.3mf": {
     "problems": [],
     "notes": []
   },
-  "coffee-gimbal": {
-    "problems": [],
-    "notes": [
-      "geometry intact (117726 triangles)"
-    ]
-  },
-  "pen-ball": {
-    "problems": [],
-    "notes": [
-      "geometry intact (16642 triangles)"
-    ]
-  },
-  "card-holder-4row": {
-    "problems": [],
-    "notes": [
-      "geometry intact (47800 triangles)"
-    ]
-  },
-  "boot-jack": {
+  "Full Plates/44 Universal Travel Coffee Gimbal (kit) - PETG x2.3mf": {
     "problems": [],
     "notes": []
   },
-  "pencil-grip": {
-    "problems": [],
-    "notes": [
-      "geometry intact (29910 triangles)"
-    ]
-  },
-  "_catalogue": {
+  "Full Plates/45 Pen Ball (kit) - PETG x4.3mf": {
     "problems": [],
     "notes": []
   },
-  "_catalogue2": {
+  "Full Plates/46 Playing Card Holder (4 rows) - PLA x4.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/47 Shoe Lifter - Boot Jack - PLA x2.3mf": {
+    "problems": [],
+    "notes": []
+  },
+  "Full Plates/48 Adaptive Pencil Grip - PLA x7.3mf": {
     "problems": [],
     "notes": []
   }

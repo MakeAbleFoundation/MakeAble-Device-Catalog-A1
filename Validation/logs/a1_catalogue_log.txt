@@ -1,0 +1,48 @@
+  plate  1 Bag Carrier (Medium)                       OK        59m 1s    31.4 g
+  plate  2 Bag Carrier (Small)                        OK       53m 42s    28.2 g
+  plate  3 Bag Carrier (Large)                        OK      1h 8m 1s    39.5 g
+  plate  4 Bottle Cap Opener                          OK     1h 6m 34s    20.9 g
+  plate  5 Bottle Opener (three sizes, wide handle)   OK    1h 58m 41s    35.2 g
+  plate  6 Assistive Can Tab Opener                   OK       38m 21s    12.3 g
+  plate  7 OPENSESAME3000 Jar Tool                    OK    3h 27m 17s    73.2 g
+  plate  8 KeyWings                                   OK       30m 19s     3.1 g
+  plate  9 DRAG Assistive Writer (kit of 3)           OK     2h 7m 46s    73.1 g
+  plate 10 Blister Pack Opener                        OK     1h 18m 8s    29.4 g
+  plate 11 Pill Popper                                OK        37m 6s     7.9 g
+  plate 12 Clothes Button & Zipper Hook (hook, PETG   OK       19m 49s     4.2 g
+  plate 13 Clothes Button & Zipper Hook (handle kit   OK       44m 32s    12.4 g
+  plate 14 Flipper Nail Clipper (large clippers)      OK     1h 1m 14s    30.3 g
+  plate 15 Flipper the Clipper v2 (Thingiverse)       OK    1h 21m 59s    45.8 g
+  plate 16 Eating Utensil Aid (kit)                   OK    2h 33m 41s    46.7 g
+  plate 17 Quick-Slip Shoe Horn                       OK    1h 18m 33s    25.1 g
+  plate 18 Tuber Opener                               OK       53m 16s    17.0 g
+  plate 19 Arthritis Toothbrush Grip                  OK    1h 19m 35s    31.7 g
+  plate 20 One-Handed Page Holder                     OK       34m 23s     9.9 g
+  plate 21 Smartphone Magnification Stand             OK    1h 12m 47s    26.1 g
+  plate 22 Eye Drop Assist pliers (bottle 20 mm)      OK       38m 45s    14.5 g
+  plate 23 Eye Drop Assist pliers (bottle 22 mm)      OK       38m 46s    14.4 g
+  plate 24 Eye Drop Assist pliers (bottle 24 mm)      OK       38m 38s    14.3 g
+  plate 25 Eye Drop Assist pliers (bottle 25 mm)      OK       37m 30s    14.0 g
+  plate 26 Eye Drop Assist eyepiece 03 A              OK       25m 20s     3.4 g
+  plate 27 Eye Drop Assist eyepiece 03 B              OK        25m 9s     3.3 g
+  plate 28 Eye Drop Assist eyepiece 03 C              OK       25m 23s     3.6 g
+  plate 29 Eye Drop Assist eyepiece 04 D              OK       27m 52s     4.0 g
+  plate 30 Eye Drop Assist eyepiece 04 E              OK       27m 38s     3.8 g
+  plate  1 Bedside Hook-On Storage Box (kit)          OK      5h 3m 8s   229.0 g
+  plate  2 Toothpaste Squeezer, external gear (kit)   OK    2h 17m 47s    40.9 g
+  plate  3 Chopstick Helper (small)                   OK       17m 38s     3.2 g
+  plate  4 Soup Can Opener (no magnets)               OK       39m 46s    11.9 g
+  plate  5 Jar Opener / Vacuum Releaser               OK     1h 5m 43s    20.1 g
+  plate  6 Younger Grip Lid Wrench (no magnets)       OK    1h 28m 41s    32.2 g
+  plate  7 Plug Puller (WATAP)                        OK       28m 54s     9.4 g
+  plate  8 Pinky Saver 3 & Phone Stand                OK       28m 16s     8.9 g
+  plate  9 Universal Cup Holder (kit)                 OK     5h 56m 4s   201.8 g
+  plate 10 Adjustable Cane Holder (kit)               OK    2h 49m 37s    69.2 g
+  plate 11 Hand Press / Grip Strengthener (Light)     OK    1h 33m 56s    38.7 g
+  plate 12 Hand Press / Grip Strengthener (Medium)    OK     1h 44m 1s    44.0 g
+  plate 13 Hand Press / Grip Strengthener (Hard)      OK    1h 51m 54s    48.5 g
+  plate 14 Universal Travel Coffee Gimbal (kit)       OK    5h 49m 47s   142.6 g
+  plate 15 Pen Ball (kit)                             OK    3h 17m 12s    64.8 g
+  plate 16 Playing Card Holder (4 rows)               OK     2h 27m 0s    75.9 g
+  plate 17 Shoe Lifter / Boot Jack                    OK    4h 39m 39s   141.2 g
+  plate 18 Adaptive Pencil Grip                       OK        47m 9s    20.5 g

@@ -71,12 +71,12 @@ def effective_cfg(cfg, part):
 
 def device_settings(dev, ref):
     ref_settings = {} if dev.get("stl") else ref.settings
-    preset = ref_settings.get("print_settings_id", "0.20mm Standard @BBL X1C")
+    preset = ref_settings.get("print_settings_id", "0.20mm Standard @BBL A1")
     inh = ref_settings.get("inherits_group")
     fil = [devices.FILAMENT[dev["material"]]]
     return settings.build(ref_settings, preset, inh[0] if inh else None, fil,
                           overrides=dev.get("overrides"),
-                          process_from="0.20mm Standard @BBL X1C" if dev.get("stl") else None)
+                          process_from="0.20mm Standard @BBL A1" if dev.get("stl") else None)
 
 
 def prepare(parts, cfg, extruder="1"):
@@ -273,7 +273,7 @@ def supplied_device(dev, outdir, previews=None, verbose=True):
         print(f"  {dev['id']:02d} {dev['title'][:44]:46} {count:3} copies "
               f"{os.path.getsize(path)/1e6:5.1f} MB {time.time()-t0:5.1f}s  [supplied plate]"
               + ("  ISSUES" if issues else ""))
-    # nothing was rebuilt, so there is no designer-vs-P1S settings story to tell
+    # nothing was rebuilt, so there is no designer-vs-A1 settings story to tell
     kept = dict({k: v for k, v in info.items() if k != "filaments"},
                 from_reference={}, kept_p1s={}, ambiguous={}, overrides={})
     return dict(slug=dev["slug"], id=dev["id"], title=dev["title"], path=path,

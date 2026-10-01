@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Build a P1S project profile for one device.
+"""Build an A1 project profile for one device.
 
 Precedence, high to low:
-  1. machine keys            -> always the P1S system preset (never the designer's printer)
+  1. machine keys            -> always the A1 system preset (never the designer's printer)
   2. filament keys           -> always the filament the user picked
-  3. speeds / accelerations / elephant-foot -> the P1S preset, UNLESS the designer changed
+  3. speeds / accelerations / elephant-foot -> the A1 preset, UNLESS the designer changed
      that value in their own preset (then their value is a deliberate choice and wins)
   4. every other process key -> the designer's effective value from the reference 3mf
   5. explicit overrides made on purpose, each recorded for the report
@@ -12,8 +12,10 @@ Precedence, high to low:
 import json
 from resolve_preset import resolve
 
-SKELETON_3MF = "/Users/justinrui/Desktop/M/Tube Opener/Tube_Opener.3mf"   # P1S, Studio 2.2.2
-MACHINE = "Bambu Lab P1S 0.4 nozzle"
+# the project shell new files start from: a Studio 2.2.2 save; every machine key in it is
+# overwritten from MACHINE, so the printer it was saved for does not matter
+SKELETON_3MF = "/Users/justinrui/Desktop/M/Tube Opener/Tube_Opener.3mf"
+MACHINE = "Bambu Lab A1 0.4 nozzle"
 STUDIO_VERSION = "02.02.02.56"
 
 META_KEYS = {"type", "name", "from", "setting_id", "instantiation", "inherits",
@@ -27,7 +29,7 @@ META_KEYS = {"type", "name", "from", "setting_id", "instantiation", "inherits",
              "default_print_profile", "default_filament_profile", "printer_technology",
              "description", "filament_description"}
 
-# Tied to the machine, not the model: these follow the P1S preset unless the designer
+# Tied to the machine, not the model: these follow the A1 preset unless the designer
 # deliberately moved them away from their own printer's default.
 KINEMATIC = {
     "default_acceleration", "travel_speed", "travel_speed_z", "travel_acceleration",
@@ -51,13 +53,13 @@ KINEMATIC = {
 }
 
 PRESET_MAP = {
-    "0.20mm Standard @BBL A1M": "0.20mm Standard @BBL X1C",
-    "0.20mm Strength @BBL A1M": "0.20mm Strength @BBL X1C",
-    "0.20mm Standard @BBL H2S": "0.20mm Standard @BBL X1C",
-    "0.20mm Standard @BBL P2S": "0.20mm Standard @BBL X1C",
-    "0.16mm Optimal @BBL P2S": "0.16mm Optimal @BBL X1C",
-    "0.20mm Standard @BBL A1": "0.20mm Standard @BBL X1C",
-    "0.24mm Draft @BBL A1M": "0.24mm Draft @BBL X1C",
+    "0.20mm Standard @BBL A1M": "0.20mm Standard @BBL A1",
+    "0.20mm Strength @BBL A1M": "0.20mm Strength @BBL A1",
+    "0.20mm Standard @BBL H2S": "0.20mm Standard @BBL A1",
+    "0.20mm Standard @BBL P2S": "0.20mm Standard @BBL A1",
+    "0.16mm Optimal @BBL P2S": "0.16mm Optimal @BBL A1",
+    "0.20mm Standard @BBL X1C": "0.20mm Standard @BBL A1",
+    "0.24mm Draft @BBL A1M": "0.24mm Draft @BBL A1",
 }
 
 ALIASES = {
@@ -110,14 +112,14 @@ def preset_keys(d):
     return {k: v for k, v in d.items() if k not in META_KEYS}
 
 
-def x1c_sibling(preset):
-    """`0.24mm Draft @BBL A1M` -> `0.24mm Draft @BBL X1C`, if Studio has that preset: the
-    P1S uses the X1C process presets, and another printer's preset must never be used as-is."""
+def a1_sibling(preset):
+    """`0.24mm Draft @BBL X1C` -> `0.24mm Draft @BBL A1`, if Studio has that preset: another
+    printer's process preset must never be used as-is."""
     import re
-    m = re.match(r"(.+ @BBL) (?!X1C$)(\S+)$", preset or "")
+    m = re.match(r"(.+ @BBL) (?!A1$)(\S+)$", preset or "")
     if not m:
         return None
-    sib = f"{m.group(1)} X1C"
+    sib = f"{m.group(1)} A1"
     try:
         resolve("process", sib)
         return sib
@@ -125,17 +127,17 @@ def x1c_sibling(preset):
         return None
 
 
-def p1s_process_for(ref_preset, inherits=None):
+def a1_process_for(ref_preset, inherits=None):
     if ref_preset in PRESET_MAP:
         return PRESET_MAP[ref_preset], ref_preset
-    sib = x1c_sibling(ref_preset)
+    sib = a1_sibling(ref_preset)
     if sib:
         return sib, ref_preset
     try:
         resolve("process", ref_preset)
         return ref_preset, ref_preset
     except FileNotFoundError:
-        base = inherits or "0.20mm Standard @BBL X1C"
+        base = inherits or "0.20mm Standard @BBL A1"
         return PRESET_MAP.get(base, base), base
 
 
@@ -143,7 +145,7 @@ def build(ref_settings, ref_preset, inherits, filaments, overrides=None, process
     """Return (project_settings, info)."""
     out = skeleton()
     machine = preset_keys(resolve("machine", MACHINE))
-    target_preset, base_preset = p1s_process_for(process_from or ref_preset, inherits)
+    target_preset, base_preset = a1_process_for(process_from or ref_preset, inherits)
     proc_full = resolve("process", target_preset)
     proc = preset_keys(proc_full)
     try:
@@ -170,7 +172,7 @@ def build(ref_settings, ref_preset, inherits, filaments, overrides=None, process
                   "support_interface_filament", "ooze_prevention",
                   "first_layer_sequence_choice", "other_layers_sequence_choice"}
     # per-EXTRUDER settings look filament-ish but track the printer's extruder count,
-    # which is 1 on a P1S. Expanding them per filament makes the slicer reject the
+    # which is 1 on an A1. Expanding them per filament makes the slicer reject the
     # project ("Flush volumes matrix do not match to the correct size").
     slot_keys -= {"flush_multiplier", "physical_extruder_map", "extruder_ams_count",
                   "filament_map_mode", "extruder_type", "extruder_printable_area",
@@ -180,7 +182,7 @@ def build(ref_settings, ref_preset, inherits, filaments, overrides=None, process
 
     out.update(machine)
     out["printer_settings_id"] = MACHINE
-    out["printer_model"] = "Bambu Lab P1S"
+    out["printer_model"] = "Bambu Lab A1"
     out["printer_variant"] = "0.4"
     out.update(proc)
     out["print_settings_id"] = target_preset
@@ -207,7 +209,7 @@ def build(ref_settings, ref_preset, inherits, filaments, overrides=None, process
         if k in KINEMATIC and not base:
             # designer's preset isn't in this Studio (e.g. a P2S profile): without a
             # baseline we can't tell a choice from a default, so machine-side values
-            # stay P1S rather than importing another printer's kinematics
+            # stay A1 rather than importing another printer's kinematics
             kept_p1s[k] = (norm(rv)[0], norm(out[k])[0])
             ambiguous[k] = (norm(rv)[0], norm(out[k])[0])
             continue

@@ -5,16 +5,16 @@
 - reference 3mf: `New Devices/Soup+Can+Opener+-+no+pause+for+magnets.3mf`
 - designer: Makerneer
 - license: CC0
-- material: PETG (PETG P1S Tuned)
+- material: PETG (PETG A1 Tuned)
 - on the plate: 12 copies (12 objects)
 
 ## Profile
 | preset | layer | first layer | walls | infill | supports | brim | top/bottom |
 |---|---|---|---|---|---|---|---|
-| 0.20mm Strength @BBL X1C | 0.2 mm | 0.2 mm | 4 | 30% adaptivecubic | off | auto_brim | 5/5 |
+| 0.20mm Strength @BBL A1 | 0.2 mm | 0.2 mm | 4 | 30% adaptivecubic | off | auto_brim | 5/5 |
 
 ### Taken from the designer's file
-| setting | P1S preset | designer |
+| setting | A1 preset | designer |
 |---|---|---|
 | `bottom_shell_layers` | 3 | **5** |
 | `fuzzy_skin_point_distance` | 0.8 | **0.6** |
@@ -32,20 +32,27 @@
 | `wall_generator` | classic | **arachne** |
 | `wall_loops` | 6 | **4** |
 
-### Left at the P1S value (designer never changed it on their printer)
-| setting | their file | P1S |
+### Left at the A1 value (designer never changed it on their printer)
+| setting | their file | A1 |
 |---|---|---|
 | `flush_multiplier` | 1 | **0.75** |
 | `raft_first_layer_expansion` | 2 | **-1** |
 | `top_area_threshold` | 100% | **200%** |
 
 ## Validation
-- Orca slice: passed - 6h 12m 36s, 143.7 g, 115.0 cm3
-- per copie: 9.58 cm3
-- the designer's own file slices at 9.82 cm3 per copy (98% of that here)
+- Orca slice: passed - 6h 29m 52s, 142.2 g, 113.8 cm3
+- per copie: 9.48 cm3
+- the designer's own file slices at 9.82 cm3 per copy (97% of that here)
 - the model page quotes 13 g per copy
 - geometry check: clean
 - clamped for Orca only (the delivered file keeps Bambu's values): raft_first_layer_expansion
+
+## Converted from the P1S file
+- on the P1S: 12 copies, 6h 12m 36s, 143.7 g
+- `default_acceleration`: 10000 (X1C/P1S preset) -> **6000** (A1 preset)
+- `elefant_foot_compensation`: 0.15 (X1C/P1S preset) -> **0.075** (A1 preset)
+- `smooth_coefficient`: 150 (X1C/P1S preset) -> **80** (A1 preset)
+- `travel_speed`: 500 (X1C/P1S preset) -> **700** (A1 preset)
 
 ## Advisories (nothing changed)
 - Soup Can Opener v5.stl: 235 mm2 of steep overhang with air under it (max drop 3.7 mm at z=5 mm) while supports are off in the designer's profile - worth a look at the preview

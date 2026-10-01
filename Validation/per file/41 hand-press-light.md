@@ -5,16 +5,16 @@
 - reference 3mf: `New Devices/Fingergrip+Press (1).3mf`
 - designer: Sakul
 - license: MakerWorld Standard Digital File License
-- material: PETG (PETG P1S Tuned)
+- material: PETG (PETG A1 Tuned)
 - on the plate: 5 copies (5 objects)
 
 ## Profile
 | preset | layer | first layer | walls | infill | supports | brim | top/bottom |
 |---|---|---|---|---|---|---|---|
-| 0.20mm Standard @BBL X1C | 0.2 mm | 0.2 mm | 4 | 15% triangles | off | auto_brim | 6/6 |
+| 0.20mm Standard @BBL A1 | 0.2 mm | 0.2 mm | 4 | 15% triangles | off | auto_brim | 6/6 |
 
 ### Taken from the designer's file
-| setting | P1S preset | designer |
+| setting | A1 preset | designer |
 |---|---|---|
 | `bottom_shell_layers` | 3 | **6** |
 | `brim_object_gap` | 0.1 | **0** |
@@ -29,20 +29,27 @@
 | `tree_support_wall_count` | -1 | **0** |
 | `wall_loops` | 2 | **5** |
 
-### Left at the P1S value (designer never changed it on their printer)
-| setting | their file | P1S |
+### Left at the A1 value (designer never changed it on their printer)
+| setting | their file | A1 |
 |---|---|---|
 | `flush_multiplier` | 1 | **0.75** |
 | `raft_first_layer_expansion` | 2 | **-1** |
 | `top_area_threshold` | 100% | **200%** |
 
 ## Validation
-- Orca slice: passed - 6h 43m 9s, 194.3 g, 155.4 cm3
-- per copie: 31.09 cm3
-- the designer's own file slices at 31.19 cm3 per copy (100% of that here)
+- Orca slice: passed - 6h 58m 2s, 192.3 g, 153.8 cm3
+- per copie: 30.77 cm3
+- the designer's own file slices at 31.19 cm3 per copy (99% of that here)
 - the model page quotes 39 g per copy
 - geometry check: clean
 - clamped for Orca only (the delivered file keeps Bambu's values): raft_first_layer_expansion
+
+## Converted from the P1S file
+- on the P1S: 5 copies, 6h 43m 9s, 194.3 g
+- `default_acceleration`: 10000 (X1C/P1S preset) -> **6000** (A1 preset)
+- `elefant_foot_compensation`: 0.15 (X1C/P1S preset) -> **0.075** (A1 preset)
+- `smooth_coefficient`: 150 (X1C/P1S preset) -> **80** (A1 preset)
+- `travel_speed`: 500 (X1C/P1S preset) -> **700** (A1 preset)
 
 ## Advisories (nothing changed)
 - Fingergrip Press Light.stl: 67 mm2 of steep overhang with air under it (max drop 4.0 mm at z=10 mm) while supports are off in the designer's profile - worth a look at the preview

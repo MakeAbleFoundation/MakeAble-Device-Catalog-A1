@@ -4,12 +4,17 @@ import json, os, sys
 
 ROOT = "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL"
 USER = os.path.expanduser("~/Library/Application Support/BambuStudio/user")
+# presets this repo ships (PETG A1 Tuned), so a rebuild does not depend on one machine's Studio
+REPO_PRESETS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "presets")
 
 
 def _find(kind, name):
     p = os.path.join(ROOT, kind, name + ".json")
     if os.path.exists(p):
         return p
+    q = os.path.join(REPO_PRESETS, name + ".json")
+    if kind == "filament" and os.path.exists(q):
+        return q
     if os.path.isdir(USER):
         for uid in os.listdir(USER):
             q = os.path.join(USER, uid, kind, name + ".json")

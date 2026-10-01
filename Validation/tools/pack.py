@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fit as many copies of a part as possible on the P1S plate.
+"""Fit as many copies of a part as possible on the A1 plate.
 
 Everything is done on a 0.25 mm raster of the part's true XY silhouette (not its bounding
 box or convex hull), so concave parts nest into each other. A staggered lattice search
@@ -10,19 +10,23 @@ import numpy as np
 from PIL import Image, ImageDraw
 
 RES = 0.25                     # mm per pixel
-BED = 256.0                    # P1S plate, mm
-# Bambu's bed_exclude_area for this machine, grown by 8 mm: the slicer rejects a plate
-# whose object merely comes "too close to exclusion area", and a brim reaches 5 mm past
-# the part, so the raw rectangle is not enough clearance.
-EXCLUDE_RAW = (0.0, 0.0, 18.0, 28.0)
+BED = 256.0                    # A1 plate, mm
+# Bambu's bed_exclude_area for the machine, grown by 8 mm: the slicer rejects a plate whose
+# object merely comes "too close to exclusion area", and a brim reaches 5 mm past the part,
+# so the raw rectangle is not enough clearance. The A1 has none (the P1S had 18 x 28 mm at
+# the front left: (0.0, 0.0, 18.0, 28.0)); None switches every corner check off.
+EXCLUDE_RAW = None
 EXCLUDE_CLEARANCE = 8.0
-EXCLUDE = (0.0, 0.0, EXCLUDE_RAW[2] + EXCLUDE_CLEARANCE, EXCLUDE_RAW[3] + EXCLUDE_CLEARANCE)
+EXCLUDE = (None if EXCLUDE_RAW is None else
+           (0.0, 0.0, EXCLUDE_RAW[2] + EXCLUDE_CLEARANCE, EXCLUDE_RAW[3] + EXCLUDE_CLEARANCE))
 
 
 def set_exclusion_clearance(mm):
     """Grow the no-go corner. Used to retry a layout that lost a part to the corner:
     keeping the packer further away is usually cheaper than dropping a whole part."""
     global EXCLUDE
+    if EXCLUDE_RAW is None:
+        return None
     EXCLUDE = (0.0, 0.0, EXCLUDE_RAW[2] + mm, EXCLUDE_RAW[3] + mm)
     return EXCLUDE
 
@@ -87,8 +91,9 @@ class Bed:
         self.occ = np.ones((self.n, self.n), dtype=bool)
         m = px(margin)
         self.occ[m:self.n - m, m:self.n - m] = False
-        ex = (px(EXCLUDE[0]), px(EXCLUDE[1]), px(EXCLUDE[2]), px(EXCLUDE[3]))
-        self.occ[ex[1]:ex[3], ex[0]:ex[2]] = True
+        if EXCLUDE:
+            ex = (px(EXCLUDE[0]), px(EXCLUDE[1]), px(EXCLUDE[2]), px(EXCLUDE[3]))
+            self.occ[ex[1]:ex[3], ex[0]:ex[2]] = True
         self._fft = None
 
     def free_fft(self):

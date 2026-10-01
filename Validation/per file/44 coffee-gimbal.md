@@ -5,13 +5,13 @@
 - source files: `New Devices/universal-travel-coffee-gimbal-model_files/Gimbal.stl`, `New Devices/universal-travel-coffee-gimbal-model_files/Clamp.stl`, `New Devices/universal-travel-coffee-gimbal-model_files/Bolt.stl`, `New Devices/universal-travel-coffee-gimbal-model_files/MPC Washer.stl`
 - designer: mobiobi (Printables)
 - license: CC BY-NC 4.0
-- material: PETG (PETG P1S Tuned)
+- material: PETG (PETG A1 Tuned)
 - on the plate: 2 kits (8 objects)
 
 ## Profile
 | preset | layer | first layer | walls | infill | supports | brim | top/bottom |
 |---|---|---|---|---|---|---|---|
-| 0.20mm Standard @BBL X1C | 0.2 mm | 0.2 mm | 4 | 15% grid | some parts, tree(auto) | auto_brim | 5/3 |
+| 0.20mm Standard @BBL A1 | 0.2 mm | 0.2 mm | 4 | 15% grid | some parts, tree(auto) | auto_brim | 5/3 |
 
 ### Deliberate changes
 - `wall_loops`: 2 -> **4**
@@ -20,10 +20,17 @@
 - Clamp: `enable_support` = **1**, `support_type` = **tree(auto)**, `support_on_build_plate_only` = **1**
 
 ## Validation
-- Orca slice: passed - 10h 37m 33s, 287.1 g, 229.7 cm3
-- per kit: 114.84 cm3
+- Orca slice: passed - 11h 4m 53s, 284.1 g, 227.3 cm3
+- per kit: 113.64 cm3
 - geometry check: clean
 - clamped for Orca only (the delivered file keeps Bambu's values): tree_support_wall_count, raft_first_layer_expansion
+
+## Converted from the P1S file
+- on the P1S: 2 kits, 10h 37m 33s, 287.1 g
+- `default_acceleration`: 10000 (X1C/P1S preset) -> **6000** (A1 preset)
+- `elefant_foot_compensation`: 0.15 (X1C/P1S preset) -> **0.075** (A1 preset)
+- `smooth_coefficient`: 150 (X1C/P1S preset) -> **80** (A1 preset)
+- `travel_speed`: 500 (X1C/P1S preset) -> **700** (A1 preset)
 
 ## Advisories (nothing changed)
 - Gimbal: 327 mm2 of steep overhang with air under it (max drop 2.0 mm at z=14 mm) while supports are off in the designer's profile - worth a look at the preview

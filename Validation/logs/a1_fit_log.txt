@@ -1,0 +1,101 @@
+  03 x2   -> 2h 2m 54s, 79 g
+  01 x4   -> 3h 22m 9s, 125 g
+  02 x4   -> 3h 1m 10s, 112 g
+  07 x2   -> 6h 26m 19s, 146 g
+  05 x4   -> 7h 9m 44s, 140 g
+  04 x8   -> 7h 32m 6s, 164 g
+  06 x30  -> 13h 11m 39s, 366 g
+  09 x2   -> 4h 5m 12s, 146 g
+  12 x9   -> 1h 48m 41s, 38 g
+  10 x8   -> 8h 54m 16s, 235 g
+  14 x3   -> 2h 37m 3s, 91 g
+  15 x4   -> 4h 53m 56s, 184 g
+  13 x8   -> 4h 34m 10s, 99 g
+  11 x21  -> 8h 44m 54s, 164 g
+  16 x5   -> 11h 39m 25s, 231 g
+  19 x19  -> 15h 13m 25s, 602 g
+  17 x12  -> 12h 22m 53s, 293 g
+  19 x17  -> 13h 40m 56s, 538 g
+  18 x12  -> 7h 43m 3s, 203 g
+  22 x2   -> 1h 5m 33s, 29 g
+  20 x23  -> 9h 5m 20s, 228 g
+  23 x2   -> 1h 5m 22s, 29 g
+  25 x2   -> 1h 2m 55s, 28 g
+  24 x2   -> 1h 5m 0s, 29 g
+  21 x12  -> 11h 20m 27s, 312 g
+  27 x35  -> 5h 8m 5s, 113 g
+  26 x35  -> 5h 29m 50s, 118 g
+  28 x35  -> 5h 29m 31s, 123 g
+  31 x1   -> 4h 48m 41s, 229 g
+  30 x35  -> 5h 49m 24s, 131 g
+  29 x35  -> 6h 9m 22s, 137 g
+  33 x48  -> 6h 52m 21s, 149 g
+  34 x12  -> 6h 29m 52s, 142 g
+  35 x8   -> 7h 13m 16s, 161 g
+  37 x9   -> 3h 17m 48s, 84 g
+  38 x18  -> 5h 40m 56s, 159 g
+  32 x8   -> 15h 52m 17s, 325 g
+  36 x8   -> 10h 26m 54s, 257 g
+  39 x1   -> 5h 52m 30s, 202 g
+  41 x5   -> 6h 58m 2s, 192 g
+  40 x6   -> 14h 35m 28s, 415 g
+  42 x5   -> 7h 49m 16s, 219 g
+  43 x5   -> 8h 29m 26s, 241 g
+  40 x5   -> 12h 12m 18s, 346 g
+  45 x4   -> 12h 18m 32s, 259 g
+  32 x7   -> 13h 54m 27s, 284 g
+  44 x2   -> 11h 4m 53s, 284 g
+  46 x4   -> 8h 18m 6s, 303 g
+  48 x7   -> 4h 23m 14s, 143 g
+  08 x76  -> 14h 22m 29s, 235 g
+  47 x2   -> 8h 41m 7s, 282 g
+  08 x74  -> 14h 0m 33s, 228 g
+  08 x73  -> 13h 50m 0s, 225 g
+01 01 Bag Carrier (Medium) - PLA x4.3mf: 3h 22m 9s OK
+02 02 Bag Carrier (Small) - PLA x4.3mf: 3h 1m 10s OK
+03 03 Bag Carrier (Large) - PLA x2.3mf: 2h 2m 54s OK
+04 04 Bottle Cap Opener - PETG x8.3mf: 7h 32m 6s OK
+05 05 Bottle Opener (three sizes, wide handle) - PETG x4.3mf: 7h 9m 44s OK
+06 06 Assistive Can Tab Opener - PLA x30.3mf: 13h 11m 39s OK
+07 07 OPENSESAME3000 Jar Tool - PETG x2.3mf: 6h 26m 19s OK
+08 08 KeyWings - PETG x73.3mf: 13h 50m 0s OK, trimmed [(76, 74, '14h 22m 29s'), (74, 73, '14h 0m 33s')]
+09 09 DRAG Assistive Writer (kit of 3) - PLA x2.3mf: 4h 5m 12s OK
+10 10 Blister Pack Opener - PETG x8.3mf: 8h 54m 16s OK
+11 11 Pill Popper - PETG x21.3mf: 8h 44m 54s OK
+12 12 Clothes Button & Zipper Hook (hook, PETG) - PETG x9.3mf: 1h 48m 41s OK
+13 13 Clothes Button & Zipper Hook (handle kit, PLA) - PLA x8.3mf: 4h 34m 10s OK
+14 14 Flipper Nail Clipper (large clippers) - PLA x3.3mf: 2h 37m 3s OK
+15 15 Flipper the Clipper v2 (Thingiverse) - PLA x4.3mf: 4h 53m 56s OK
+16 16 Eating Utensil Aid (kit) - PLA x5.3mf: 11h 39m 25s OK
+17 17 Quick-Slip Shoe Horn - PETG x12.3mf: 12h 22m 53s OK
+18 18 Tuber Opener - PLA x12.3mf: 7h 43m 3s OK
+19 19 Arthritis Toothbrush Grip - PLA x17.3mf: 13h 40m 56s OK, trimmed [(19, 17, '15h 13m 25s')]
+20 20 One-Handed Page Holder - PLA x23.3mf: 9h 5m 20s OK
+21 21 Smartphone Magnification Stand - PLA x12.3mf: 11h 20m 27s OK
+22 22 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf: 1h 5m 33s OK
+23 23 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf: 1h 5m 22s OK
+24 24 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf: 1h 5m 0s OK
+25 25 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf: 1h 2m 55s OK
+26 26 Eye Drop Assist eyepiece 03 A - PLA x35.3mf: 5h 29m 50s OK
+27 27 Eye Drop Assist eyepiece 03 B - PLA x35.3mf: 5h 8m 5s OK
+28 28 Eye Drop Assist eyepiece 03 C - PLA x35.3mf: 5h 29m 31s OK
+29 29 Eye Drop Assist eyepiece 04 D - PLA x35.3mf: 6h 9m 22s OK
+30 30 Eye Drop Assist eyepiece 04 E - PLA x35.3mf: 5h 49m 24s OK
+31 31 Bedside Hook-On Storage Box (kit) - PLA x1.3mf: 4h 48m 41s OK
+32 32 Toothpaste Squeezer, external gear (kit) - PLA x7.3mf: 13h 54m 27s OK, trimmed [(8, 7, '15h 52m 17s')]
+33 33 Chopstick Helper (small) - PLA x48.3mf: 6h 52m 21s OK
+34 34 Soup Can Opener (no magnets) - PETG x12.3mf: 6h 29m 52s OK
+35 35 Jar Opener - Vacuum Releaser - PLA x8.3mf: 7h 13m 16s OK
+36 36 Younger Grip Lid Wrench (no magnets) - PLA x8.3mf: 10h 26m 54s OK
+37 37 Plug Puller (WATAP) - PLA x9.3mf: 3h 17m 48s OK
+38 38 Pinky Saver 3 & Phone Stand - PLA x18.3mf: 5h 40m 56s OK
+39 39 Universal Cup Holder (kit) - PLA x1.3mf: 5h 52m 30s OK
+40 40 Adjustable Cane Holder (kit) - PLA x5.3mf: 12h 12m 18s OK, trimmed [(6, 5, '14h 35m 28s')]
+41 41 Hand Press - Grip Strengthener (Light) - PETG x5.3mf: 6h 58m 2s OK
+42 42 Hand Press - Grip Strengthener (Medium) - PETG x5.3mf: 7h 49m 16s OK
+43 43 Hand Press - Grip Strengthener (Hard) - PETG x5.3mf: 8h 29m 26s OK
+44 44 Universal Travel Coffee Gimbal (kit) - PETG x2.3mf: 11h 4m 53s OK
+45 45 Pen Ball (kit) - PETG x4.3mf: 12h 18m 32s OK
+46 46 Playing Card Holder (4 rows) - PLA x4.3mf: 8h 18m 6s OK
+47 47 Shoe Lifter - Boot Jack - PLA x2.3mf: 8h 41m 7s OK
+48 48 Adaptive Pencil Grip - PLA x7.3mf: 4h 23m 14s OK

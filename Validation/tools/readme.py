@@ -61,7 +61,7 @@ def p1(sl, slug):
 
 
 def designer_printers(rows, by_slug):
-    """The printers the designers' own profiles were saved for, other than the P1S."""
+    """The printers the designers' own profiles were saved for, other than the A1."""
     import p3mf
     seen = []
     for r in rows:
@@ -70,7 +70,7 @@ def designer_printers(rows, by_slug):
             continue
         model = p3mf.Ref(d["ref"]).settings.get("printer_model", "")
         name = model.replace("Bambu Lab ", "")
-        if name and name != "P1S" and name not in seen:
+        if name and name != "A1" and name not in seen:
             seen.append(name)
     return ", ".join(seen)
 
@@ -117,6 +117,59 @@ def spacing_reason(r):
     return "its brim reaches past the part"
 
 
+def conversion_section(a1, rows, sl):
+    """What the P1S -> A1 conversion changed, and how to repeat it."""
+    L = ["## Converted from the P1S catalogue", ""]
+    L.append("Every file was converted in place from the P1S edition by "
+             "`Validation/tools/a1.py`. Nothing on a plate was moved and no mesh was touched. "
+             "What changed:")
+    L.append("")
+    L.append("- **Printer**: `Bambu Lab A1 0.4 nozzle` system preset - bed with no excluded "
+             "corner, 256 mm build height, the A1's start/end G-code, motion limits and "
+             "bed-slinger structure.")
+    pr = a1.get("process") or {}
+    if pr:
+        L.append("- **Process preset**: each `@BBL X1C` preset swapped for its `@BBL A1` "
+                 "sibling (same layer height and name). Only four values differ between the "
+                 "two, and each moved only where the file still had the X1C default: "
+                 + ", ".join(f"`{k}` {a} -> {b}" for k, (a, b) in sorted(pr.items())) + ". "
+                 "Every value a designer chose (walls, infill, supports, line widths, their "
+                 "own speeds...) is untouched, on the project and on every object.")
+    L.append("- **Filament**: `Bambu PLA Basic @BBL X1C` -> `Bambu PLA Basic @BBL A1` "
+             "(65 C bed instead of 55 C, 60-80% fan instead of 100%, 6 s minimum layer time); "
+             "`PETG P1S Tuned` -> `PETG A1 Tuned` (same tuning, A1 base: flow ratio 0.94).")
+    if a1.get("brims"):
+        L.append(f"- **Brims**: added on {len([b for b in a1['brims'].values() if not b.get('already')])} "
+                 "tall parts, see *Brims for a moving bed*.")
+    trimmed = [r for r in rows if (r.get("a1") or {}).get("trims")]
+    if trimmed:
+        L.append("- **Copies**: " + ", ".join(
+            f"{r['title']} {r['a1']['p1s_count']} -> {r['count']}" for r in trimmed)
+            + f" to stay under {devices.MAX_HOURS:.0f} h.")
+    L.append("")
+    L.append("| # | device | P1S time | A1 time | change |")
+    L.append("|---|---|---|---|---|")
+    import fitplate
+    for r in rows:
+        x = (r.get("a1") or {})
+        t0 = (x.get("p1s") or {}).get("total_time")
+        t1 = p1(sl, r["slug"]).get("total_time")
+        d = ""
+        if t0 and t1:
+            h0, h1 = fitplate.hours(t0), fitplate.hours(t1)
+            pct = round(100 * (h1 - h0) / h0)
+            d = f"{pct:+d}%" if pct else "same"
+            if x.get("trims"):
+                d += f" (with {r['count']} instead of {x['p1s_count']})"
+        L.append(f"| {r['id']:02d} | {r['title']} | {fmt(t0)} | {fmt(t1)} | {d} |")
+    L.append("")
+    L.append("To pull later changes from the P1S catalogue: merge `upstream/main`, then run "
+             "`a1.py convert` on the changed files, `a1.py fit` on changed full plates, and "
+             "`a1.py check` (see `Validation/tools/a1_all.sh`).")
+    L.append("")
+    return L
+
+
 def main(out):
     D = f"{out}/Validation/data"
     rows = json.load(open(f"{D}/build_data.json"))
@@ -130,26 +183,36 @@ def main(out):
         if os.path.exists(f"{out}/{c['file']}") and os.path.exists(f"{D}/{c['data']}"):
             cats.append((n, c, json.load(open(f"{D}/{c['data']}"))))
 
-    L = ["# MakeAble assistive devices - print files for the Bambu Lab P1S", ""]
-    L.append("Every file here is set up for a **Bambu Lab P1S, 0.4 nozzle, textured PEI "
+    a1 = json.load(open(f"{D}/a1_conversion.json")) if os.path.exists(f"{D}/a1_conversion.json") else {}
+    L = ["# MakeAble assistive devices - print files for the Bambu Lab A1", ""]
+    L.append("Every file here is set up for a **Bambu Lab A1, 0.4 nozzle, textured PEI "
              "plate**, saved in Bambu Studio 2.2.2 format. Open one, check the plate, hit "
              "slice. Nothing needs to be re-arranged or re-configured.")
+    L.append("")
+    L.append("This is the A1 edition of [MakeAble-Device-Catalog]"
+             "(https://github.com/MakeAbleFoundation/MakeAble-Device-Catalog), which is set up "
+             "for the P1S: the same devices, the same files and the same plate arrangements, "
+             "converted to the A1. See *Converted from the P1S catalogue* below for exactly "
+             "what changed.")
     L.append("")
     L.append("## Printer this is for")
     L.append("")
     L.append("| | |")
     L.append("|---|---|")
-    L.append("| Printer | Bambu Lab **P1S** (256 x 256 x 256 mm build volume) |")
+    L.append("| Printer | Bambu Lab **A1** (256 x 256 x 256 mm build volume) |")
     L.append("| Nozzle | 0.4 mm hardened/stainless (stock) |")
     L.append("| Build plate | Textured PEI |")
     L.append("| Slicer | Bambu Studio 2.2.2 or newer (OrcaSlicer 2.4.2 also opens them) |")
-    L.append("| Filaments | PLA (`Bambu PLA Basic @BBL X1C`) and PETG (`PETG P1S Tuned`) - one "
+    L.append("| Filaments | PLA (`Bambu PLA Basic @BBL A1`) and PETG (`PETG A1 Tuned`) - one "
              "per plate |")
     L.append("")
-    L.append("These files are **not** for the A1, A1 mini, X1C, P2S or H2 series without "
-             "re-checking: the machine settings, bed shape and the P1S's front-left bed "
-             "exclusion area are baked into every plate. On another printer, re-select the "
-             "machine preset in Studio and re-check part placement before slicing.")
+    L.append("`PETG A1 Tuned` is saved inside every PETG file, so it works on any computer. To "
+             "have it as a named preset in Bambu Studio too, import "
+             "`Validation/presets/PETG A1 Tuned.json` (File > Import > Import Configs).")
+    L.append("")
+    L.append("These files are **not** for the A1 mini (180 mm bed), P1S, X1C, P2S or H2 series "
+             "without re-checking: the A1's machine settings, start G-code and motion limits "
+             "are baked into every plate. For the P1S, use the original catalogue.")
     L.append("")
     L.append("## Repository layout")
     L.append("")
@@ -164,7 +227,8 @@ def main(out):
             L.append(f"- `{c['file']}` - devices {first:02d}-{last:02d}, each on its own "
                      "plate, one copy each, same settings.")
     L.append("- `Validation/` - what was checked, per file, plus plate previews. "
-             "`Validation/tools/` holds the Python scripts that built and checked the plates.")
+             "`Validation/tools/` holds the Python scripts that built, converted and checked "
+             "the plates; `Validation/presets/` holds the PETG preset.")
     L.append("")
     L.append("## Full plates")
     L.append("")
@@ -188,9 +252,10 @@ def main(out):
     L.append("")
     L.append("The last column is the check that matters: filament per copy on your plate "
              "against a slice of the designer's own untouched file. 100% means the part "
-             "comes out exactly as they set it up. The few at 95-96% are the P1S's "
-             "elephant-foot compensation shaving the first layer, which their printer "
-             "profile did not apply. A dash means there is nothing to compare against "
+             "comes out exactly as they set it up. A few percent under 100% comes from the "
+             "printer profile, not the part: the A1's elephant-foot compensation shaving the "
+             "first layer (their printer profile did not apply it), and the A1 PETG preset's "
+             "0.94 flow ratio. A dash means there is nothing to compare against "
              "(loose STLs, or a size variant that shares another file's profile"
              + (", or a supplied plate, which is its own reference" if supplied
                 else "") + ").")
@@ -201,11 +266,15 @@ def main(out):
         L.append("")
         L.append(f"No plate runs longer than {devices.MAX_HOURS:.0f} hours (the slicer's "
                  "estimate). Where a full plate would take longer, it holds fewer copies - "
-                 "the ones in the middle of the plate, kept together:")
+                 "the ones in the middle of the plate, kept together. The A1 accelerates "
+                 "more gently than the P1S, so a few plates hold fewer copies than the P1S "
+                 "edition:")
         L.append("")
         for r in capped:
+            was = (r.get("a1") or {}).get("p1s_count")
             L.append(f"- **{r['title']}**: {r['count']} of the {r['capped_from']} {r['unit']} "
-                     f"that fit ({fmt(p1(sl, r['slug']).get('total_time'))})")
+                     f"that fit ({fmt(p1(sl, r['slug']).get('total_time'))})"
+                     + (f" - the P1S edition holds {was}" if was and was != r["count"] else ""))
         L.append("")
     if len(cats) <= 1:
         L.append("## Catalogue file")
@@ -237,7 +306,7 @@ def main(out):
     L.append("If you want a device exactly as its designer set it up, use its file in "
              "`Full Plates/` - those keep every value.")
     L.append("")
-    L.append("## Spacing, and the corner the printer cannot use")
+    L.append("## Spacing")
     L.append("")
     L.append("Parts sit at least 5 mm apart, measured on their real outlines rather than "
              "bounding boxes, which is what lets the C-shaped ones nest into each other. "
@@ -259,31 +328,50 @@ def main(out):
         clean = (sl.get(r["slug"]) or {}).get("ok")
         L.append(f"**{r['title']}** is a supplied plate, arranged by hand in Bambu Studio and "
                  f"kept exactly as it is: its parts are {report.fmt_mm(sp['gap'], 'over 10 mm')} "
-                 f"apart, {report.fmt_mm(sp['edge'])} from the plate edge and "
-                 f"{report.fmt_mm(sp['corner'])} from the excluded corner. "
+                 f"apart and {report.fmt_mm(sp['edge'])} from the plate edge. "
                  + ("It slices with no conflicting toolpaths." if clean
                     else "It does NOT slice clean - see its validation page."))
         L.append("")
-    L.append("The P1S cannot print in an 18 x 28 mm patch at the front-left corner "
-             "(Bambu calls it the bed exclusion area). Parts are kept 8 mm clear of it, "
-             "and any part whose convex hull would still reach into it is dropped - the "
-             "slicer refuses the whole plate over a single one.")
+    L.append("The plates were packed for the P1S, which cannot print in an 18 x 28 mm patch "
+             "at the front-left corner. The A1 has no such patch, so that corner is simply "
+             "empty; the arrangements were kept exactly as they were rather than re-packed.")
     L.append("")
+    brims = a1.get("brims") or {}
+    if brims:
+        L.append("## Brims for a moving bed")
+        L.append("")
+        L.append("The A1 moves the bed back and forth under the part, so a part that is tall "
+                 "for its footprint can rock loose late in the print. Parts that stand at "
+                 "least 2.3 times taller than their narrowest footprint width, or 60 mm tall "
+                 "and 1.5 times, get a 5 mm outer brim, unless the designer chose the brim "
+                 "themselves:")
+        L.append("")
+        for name, b in brims.items():
+            title = next((r["title"] for r in rows if r["id"] == b["device"]), "")
+            how = ("already has an outer brim in its profile" if b.get("already")
+                   else "outer brim added")
+            L.append(f"- **{title}** - {name}: {b['height']:g} mm tall on a "
+                     f"{b['min_width']:g} mm footprint - {how}")
+        kept = [(r, a) for r in rows for a in r["advisories"] if "brim off" in a]
+        for r, a in kept:
+            L.append(f"- **{r['title']}**: left without a brim, as the designer set it ({a.split(': ', 1)[1]})")
+        L.append("")
     L.append("## How the settings were decided")
     L.append("")
     L.append("For each device, in order:")
     L.append("")
-    L.append("1. **Machine settings** always come from the P1S system preset. Nothing from "
+    L.append("1. **Machine settings** always come from the A1 system preset. Nothing from "
              f"the designer's printer ({designer_printers(rows, by_slug)}) is carried over - "
              "no start/end gcode, no bed shape, no kinematics.")
-    L.append("2. **Filament** is your own preset: `PETG P1S Tuned` for PETG, "
-             "`Bambu PLA Basic @BBL X1C` for PLA.")
-    L.append("3. **Speeds, accelerations and elephant-foot compensation** follow the P1S "
+    L.append("2. **Filament**: `PETG A1 Tuned` for PETG (your PETG tuning on Bambu's A1 PETG "
+             "Basic: 240/250 C nozzle, 60/65 C bed, 20-65% fan, 8 mm3/s, 1.6 mm retraction, "
+             "0.4 mm z-hop), `Bambu PLA Basic @BBL A1` for PLA.")
+    L.append("3. **Speeds, accelerations and elephant-foot compensation** follow the A1 "
              "preset, *unless* the designer had deliberately changed that value on their "
              "own printer - then their number wins.")
     L.append("4. **Everything else** - walls, infill, shells, supports, brim, seams, line "
              "widths, variable layer heights - is the designer's own value from their 3mf.")
-    L.append("5. **Loose STLs** have no designer profile: they get the P1S 0.20 mm Standard "
+    L.append("5. **Loose STLs** have no designer profile: they get the A1 0.20 mm Standard "
              "profile plus only the settings the designer states on the model page.")
     L.append("6. Anything changed on purpose beyond that is listed per file in "
              "`Validation/per file/`.")
@@ -302,14 +390,14 @@ def main(out):
     L.append(f"- the plate finishes inside {devices.MAX_HOURS:.0f} hours;")
     L.append("- filament per copy is compared against a slice of the designer's untouched "
              "file, and against the weight quoted on the model page;")
-    L.append("- every part is inside the plate, clear of the P1S's excluded front-left "
-             "corner, with at least 5 mm between parts (checked on the real outlines, not "
-             "bounding boxes)" + ("; a supplied plate keeps its own spacing" if supplied
-                                  else "") + ";")
+    L.append("- every part is inside the plate, with at least 5 mm between parts (checked "
+             "on the real outlines, not bounding boxes)" + ("; a supplied plate keeps its own "
+                                                            "spacing" if supplied else "") + ";")
     L.append("- meshes are byte-identical to the designer's, so painted seams survive;")
-    L.append("- each object carries its settings, and every object is on a plate"
-             + ("; a supplied plate is instead checked byte for byte against the file it "
-                "came from." if supplied else "."))
+    L.append("- each object carries its settings, and every object is on a plate;")
+    L.append("- against the P1S edition: meshes byte for byte identical, and no setting "
+             "changed except the machine, the filament presets, the four machine-tied process "
+             "values and the added brims.")
     L.append("")
     probs = sum(len(v["problems"]) for v in chk.values())
     L.append(f"Structural checks: {len(chk)} files, {probs} problems. "
@@ -338,6 +426,8 @@ def main(out):
         for r, a in adv:
             L.append(f"- **{r['title']}**: {a}")
         L.append("")
+    if a1:
+        L += conversion_section(a1, rows, sl)
     L.append("## Where each file came from")
     L.append("")
     L.append("| # | device | designer source file (kept locally, not in this repo) | model page |")
@@ -373,7 +463,7 @@ def main(out):
     eda = [r["id"] for r in rows if r["slug"].startswith("eda-")]
     L.append(f"- **Eye Drop Assist (files {min(eda)}-{max(eda)})**: the three Printables pages sit behind a "
              "bot check, so the designer's own print settings could not be read. Those "
-             "files use the P1S 0.20 mm Standard profile in PLA. They also need a decision: "
+             "files use the A1 0.20 mm Standard profile in PLA. They also need a decision: "
              "whether a pliers and an eyepiece pair up into one device (in which case they "
              "should be kit plates) or are alternatives.")
     if "cup-holder" in {r["slug"] for r in rows}:
